@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8E4F4DF1-BCB4-73C2-E992-ADCD28B5B4B6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>WebGL:20</UnityBuildTarget>
+    <UnityVersion>5.6.0f3</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_IL2CPP;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_IL2CPP;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript-firstpass">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="KBClient.Plugins.csproj">
+      <Project>{AF9DBD21-9739-61F4-2D5C-44B71361F565}</Project>
+      <Name>KBClient.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\UIEffect\Rainbow.cs" />
+    <Compile Include="Assets\Scripts\auto\DB.cs" />
+    <Compile Include="Assets\Scripts\auto\ResourceABs.cs" />
+    <Compile Include="Assets\Scripts\module\3d\PlayerDataManager.cs" />
+    <Compile Include="Assets\Scripts\module\init\GameEngine.cs" />
+    <Compile Include="Assets\Scripts\module\init\initManager.cs" />
+    <Compile Include="Assets\Scripts\module\init\initView.cs" />
+    <Compile Include="Assets\Scripts\module\init\intModel.cs" />
+    <Compile Include="Assets\Scripts\module\sdk\share\ShareModel.cs" />
+    <Compile Include="Assets\Scripts\module\sdk\share\ShareView.cs" />
+    <Compile Include="Assets\Scripts\module\sdk\voice\MicphoneTest.cs" />
+    <Compile Include="Assets\Scripts\module\time\TimeModel.cs" />
+    <Compile Include="Assets\Scripts\module\view\Loading\MainScenePrepareTask.cs" />
+    <Compile Include="Assets\Scripts\module\view\Loading\SceneLoadingView.cs" />
+    <Compile Include="Assets\Scripts\module\view\Loading\SceneManager.cs" />
+    <Compile Include="Assets\Scripts\module\view\Loading\TaskProgressBar.cs" />
+    <Compile Include="Assets\Scripts\module\view\Loading\WindowLoadingView.cs" />
+    <Compile Include="Assets\Scripts\module\view\Tip\MsgBoxView.cs" />
+    <Compile Include="Assets\Scripts\module\view\chat\component\ChatScrollView.cs" />
+    <Compile Include="Assets\Scripts\module\view\chat\component\ExpressionShowItem.cs" />
+    <Compile Include="Assets\Scripts\module\view\chat\component\xk_chatItem.cs" />
+    <Compile Include="Assets\Scripts\module\view\chat\component\xk_chat_LineItem.cs" />
+    <Compile Include="Assets\Scripts\module\view\chat\model\ChatModel.cs" />
+    <Compile Include="Assets\Scripts\module\view\chat\plugin\ExpressionItem.cs" />
+    <Compile Include="Assets\Scripts\module\view\chat\plugin\ExpressionText.cs" />
+    <Compile Include="Assets\Scripts\module\view\chat\plugin\HyperLinkItem.cs" />
+    <Compile Include="Assets\Scripts\module\view\chat\plugin\HyperLinkText.cs" />
+    <Compile Include="Assets\Scripts\module\view\chat\plugin\LogManager.cs" />
+    <Compile Include="Assets\Scripts\module\view\chat\plugin\TextUtility.cs" />
+    <Compile Include="Assets\Scripts\module\view\chat\plugin\underLineText.cs" />
+    <Compile Include="Assets\Scripts\module\view\chat\view\ChatView.cs" />
+    <Compile Include="Assets\Scripts\module\view\chat\view\ExpressionView.cs" />
+    <Compile Include="Assets\Scripts\module\view\common\CommonInfiniteScrollView.cs" />
+    <Compile Include="Assets\Scripts\module\view\common\CommonScrollView.cs" />
+    <Compile Include="Assets\Scripts\module\view\common\EventTriggerListener.cs" />
+    <Compile Include="Assets\Scripts\module\view\common\xScrollViewBase.cs" />
+    <Compile Include="Assets\Scripts\module\view\login\LoginCommand.cs" />
+    <Compile Include="Assets\Scripts\module\view\login\LoginDataModel.cs" />
+    <Compile Include="Assets\Scripts\module\view\login\LoginView.cs" />
+    <Compile Include="Assets\Scripts\module\view\main\MainModel.cs" />
+    <Compile Include="Assets\Scripts\module\view\main\MainView.cs" />
+    <Compile Include="Assets\Scripts\module\view\selectRole\model\SelectRoleModel.cs" />
+    <Compile Include="Assets\Scripts\module\view\selectRole\view\RoleCreateView.cs" />
+    <Compile Include="Assets\Scripts\module\view\selectRole\view\RoleSelectView.cs" />
+    <Compile Include="Assets\Scripts\module\view\selectRole\view\SelectHeroItem.cs" />
+    <Compile Include="Assets\Scripts\module\view\selectServer\SelectServerModel.cs" />
+    <Compile Include="Assets\Scripts\module\view\selectServer\SelectServerView.cs" />
+    <Compile Include="Assets\Scripts\module\view\selectServer\component\SelectServerScrollView.cs" />
+    <Compile Include="Assets\Scripts\module\view\selectServer\component\ServerItem.cs" />
+    <Compile Include="Assets\Scripts\module\view\store\component\StoreSubItemLineManager.cs" />
+    <Compile Include="Assets\Scripts\module\view\store\item\SotreAllItem.cs" />
+    <Compile Include="Assets\Scripts\module\view\store\item\StoreCompoundItem.cs" />
+    <Compile Include="Assets\Scripts\module\view\store\item\StoreSubItem.cs" />
+    <Compile Include="Assets\Scripts\module\view\store\model\StoreModel.cs" />
+    <Compile Include="Assets\Scripts\module\view\store\view\ItemAttView.cs" />
+    <Compile Include="Assets\Scripts\module\view\store\view\ItemShowView.cs" />
+    <Compile Include="Assets\Scripts\module\view\store\view\StoreAllItemView.cs" />
+    <Compile Include="Assets\Scripts\module\view\store\view\StoreRecommendView.cs" />
+    <Compile Include="Assets\Scripts\module\view\store\view\StoreView.cs" />
+    <Compile Include="Assets\Scripts\tools\MonoVersion.cs" />
+    <Compile Include="Assets\Scripts\xk_System\AssetPackage\AssemblyManager.cs" />
+    <Compile Include="Assets\Scripts\xk_System\AssetPackage\AssetBundleManager.cs" />
+    <Compile Include="Assets\Scripts\xk_System\AssetPackage\AtlasManager.cs" />
+    <Compile Include="Assets\Scripts\xk_System\AudioManager\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\xk_System\ConfigTable\DbSystem.cs" />
+    <Compile Include="Assets\Scripts\xk_System\Debug\LogManager.cs" />
+    <Compile Include="Assets\Scripts\xk_System\Encryption\EncryptionSystem.cs" />
+    <Compile Include="Assets\Scripts\xk_System\Encryption\RSA.cs" />
+    <Compile Include="Assets\Scripts\xk_System\HotUpdate\AssetBundleHotUpdateManager.cs" />
+    <Compile Include="Assets\Scripts\xk_System\Reflection\ReflectionSystem.cs" />
+    <Compile Include="Assets\Scripts\xk_System\Sdk\MiniJSON.cs" />
+    <Compile Include="Assets\Scripts\xk_System\Sdk\SdkManager.cs" />
+    <Compile Include="Assets\Scripts\xk_System\Sdk\ShareSdk.cs" />
+    <Compile Include="Assets\Scripts\xk_System\UpdateManager\EnterFrame.cs" />
+    <Compile Include="Assets\Scripts\xk_System\UpdateManager\UpdateManager.cs" />
+    <Compile Include="Assets\Scripts\xk_System\UpdateManager\WTimer.cs" />
+    <Compile Include="Assets\Scripts\xk_System\UpdateManager\WTimerManager.cs" />
+    <Compile Include="Assets\Scripts\xk_System\Utility\CacheManager.cs" />
+    <Compile Include="Assets\Scripts\xk_System\Utility\GameConfig.cs" />
+    <Compile Include="Assets\Scripts\xk_System\Utility\HttpUtility.cs" />
+    <Compile Include="Assets\Scripts\xk_System\Utility\Singleton.cs" />
+    <Compile Include="Assets\Scripts\xk_System\Utility\Utility.cs" />
+    <Compile Include="Assets\Scripts\xk_System\mvc\ModelSystem.cs" />
+    <Compile Include="Assets\Scripts\xk_System\mvc\ObjectRoot.cs" />
+    <Compile Include="Assets\Scripts\xk_System\mvc\WindowManager.cs" />
+    <Compile Include="Assets\Scripts\xk_System\mvc\mvc.cs" />
+    <Compile Include="Assets\TEST\AndroidSdkTest\AndroidSdkManagerTest.cs" />
+    <Compile Include="Assets\TEST\CSharp_TEST\CSharp_Main.cs" />
+    <Compile Include="Assets\TEST\CSharp_TEST\CSharp_TEST3.cs" />
+    <Compile Include="Assets\TEST\CSharp_TEST\CSharp_Test1.cs" />
+    <Compile Include="Assets\TEST\CSharp_TEST\CSharp_Test2.cs" />
+    <Compile Include="Assets\TEST\Db_TEST\TestDb.cs" />
+    <Compile Include="Assets\TEST\Db_TEST\dbtest_main.cs" />
+    <Compile Include="Assets\TEST\Net_TEST\Net_Test.cs" />
+    <Compile Include="Assets\TEST\Net_TEST\test.cs" />
+    <Compile Include="Assets\TEST\UGUI_TEST\UGUI_TEST.cs" />
+    <Compile Include="Assets\TEST\UGUI_TEST\xk_Text_Effect.cs" />
+    <Compile Include="Assets\TEST\Unity_TEST\test_view.cs" />
+    <Compile Include="Assets\TEST\test_md5.cs" />
+    <Compile Include="Assets\kbe_Scripts\kbe_scripts\Account.cs" />
+    <Compile Include="Assets\kbe_Scripts\kbe_scripts\Avatar.cs" />
+    <Compile Include="Assets\kbe_Scripts\kbe_scripts\Gate.cs" />
+    <Compile Include="Assets\kbe_Scripts\kbe_scripts\Monster.cs" />
+    <Compile Include="Assets\kbe_Scripts\kbe_scripts\NPC.cs" />
+    <Compile Include="Assets\kbe_Scripts\kbe_scripts\clientapp.cs" />
+    <Compile Include="Assets\kbe_Scripts\kbe_scripts\interfaces\Combat.cs" />
+    <Compile Include="Assets\kbe_Scripts\kbe_scripts\interfaces\GameObject.cs" />
+    <Compile Include="Assets\kbe_Scripts\kbe_scripts\interfaces\SkillBox.cs" />
+    <Compile Include="Assets\kbe_Scripts\kbe_scripts\interfaces\if_Entity_error_use______git_submodule_update_____kbengine_plugins_______open_this_file_and_I_will_tell_you.cs" />
+    <Compile Include="Assets\kbe_Scripts\kbe_scripts\skills\Skill.cs" />
+    <Compile Include="Assets\kbe_Scripts\kbe_scripts\skills\SkillObject.cs" />
+    <Compile Include="Assets\kbe_Scripts\u3d_scripts\GameEntity.cs" />
+    <Compile Include="Assets\kbe_Scripts\u3d_scripts\ShowFPS.cs" />
+    <Compile Include="Assets\kbe_Scripts\u3d_scripts\UI.cs" />
+    <Compile Include="Assets\kbe_Scripts\u3d_scripts\World.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\ResourceABs\shader\Hero_ParticleAdditive.shader" />
+    <None Include="Assets\ResourceABs\shader\Hero_Particle_Add.shader" />
+    <None Include="Assets\ResourceABs\shader\Hero_Particle_AlphaBlend.shader" />
+    <None Include="Assets\ResourceABs\shader\Hero_Particle_AlphaBlendColor.shader" />
+    <None Include="Assets\ResourceABs\sheet\DB.xml" />
+    <None Include="Assets\ResourceABs\version\version.xml" />
+    <None Include="Assets\Scripts\Shader\aaa.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

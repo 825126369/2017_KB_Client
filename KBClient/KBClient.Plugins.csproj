@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AF9DBD21-9739-61F4-2D5C-44B71361F565}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>GamePlugins:3</UnityProjectType>
+    <UnityBuildTarget>WebGL:20</UnityBuildTarget>
+    <UnityVersion>5.6.0f3</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_IL2CPP;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_IL2CPP;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Plugins\kbengine\kbengine_unity3d_plugins-0.9.17\kbengine_unity3d_plugins-0.9.17\Bundle.cs" />
+    <Compile Include="Assets\Plugins\kbengine\kbengine_unity3d_plugins-0.9.17\kbengine_unity3d_plugins-0.9.17\DataTypes.cs" />
+    <Compile Include="Assets\Plugins\kbengine\kbengine_unity3d_plugins-0.9.17\kbengine_unity3d_plugins-0.9.17\Dbg.cs" />
+    <Compile Include="Assets\Plugins\kbengine\kbengine_unity3d_plugins-0.9.17\kbengine_unity3d_plugins-0.9.17\Entity.cs" />
+    <Compile Include="Assets\Plugins\kbengine\kbengine_unity3d_plugins-0.9.17\kbengine_unity3d_plugins-0.9.17\EntityDef.cs" />
+    <Compile Include="Assets\Plugins\kbengine\kbengine_unity3d_plugins-0.9.17\kbengine_unity3d_plugins-0.9.17\Event.cs" />
+    <Compile Include="Assets\Plugins\kbengine\kbengine_unity3d_plugins-0.9.17\kbengine_unity3d_plugins-0.9.17\KBEMain.cs" />
+    <Compile Include="Assets\Plugins\kbengine\kbengine_unity3d_plugins-0.9.17\kbengine_unity3d_plugins-0.9.17\KBEngine.cs" />
+    <Compile Include="Assets\Plugins\kbengine\kbengine_unity3d_plugins-0.9.17\kbengine_unity3d_plugins-0.9.17\KBEngineArgs.cs" />
+    <Compile Include="Assets\Plugins\kbengine\kbengine_unity3d_plugins-0.9.17\kbengine_unity3d_plugins-0.9.17\Mailbox.cs" />
+    <Compile Include="Assets\Plugins\kbengine\kbengine_unity3d_plugins-0.9.17\kbengine_unity3d_plugins-0.9.17\Math.cs" />
+    <Compile Include="Assets\Plugins\kbengine\kbengine_unity3d_plugins-0.9.17\kbengine_unity3d_plugins-0.9.17\MemoryStream.cs" />
+    <Compile Include="Assets\Plugins\kbengine\kbengine_unity3d_plugins-0.9.17\kbengine_unity3d_plugins-0.9.17\Message.cs" />
+    <Compile Include="Assets\Plugins\kbengine\kbengine_unity3d_plugins-0.9.17\kbengine_unity3d_plugins-0.9.17\MessageReader.cs" />
+    <Compile Include="Assets\Plugins\kbengine\kbengine_unity3d_plugins-0.9.17\kbengine_unity3d_plugins-0.9.17\Method.cs" />
+    <Compile Include="Assets\Plugins\kbengine\kbengine_unity3d_plugins-0.9.17\kbengine_unity3d_plugins-0.9.17\NetworkInterface.cs" />
+    <Compile Include="Assets\Plugins\kbengine\kbengine_unity3d_plugins-0.9.17\kbengine_unity3d_plugins-0.9.17\ObjectPool.cs" />
+    <Compile Include="Assets\Plugins\kbengine\kbengine_unity3d_plugins-0.9.17\kbengine_unity3d_plugins-0.9.17\PacketReceiver.cs" />
+    <Compile Include="Assets\Plugins\kbengine\kbengine_unity3d_plugins-0.9.17\kbengine_unity3d_plugins-0.9.17\PacketSender.cs" />
+    <Compile Include="Assets\Plugins\kbengine\kbengine_unity3d_plugins-0.9.17\kbengine_unity3d_plugins-0.9.17\PersistentInfos.cs" />
+    <Compile Include="Assets\Plugins\kbengine\kbengine_unity3d_plugins-0.9.17\kbengine_unity3d_plugins-0.9.17\Profile.cs" />
+    <Compile Include="Assets\Plugins\kbengine\kbengine_unity3d_plugins-0.9.17\kbengine_unity3d_plugins-0.9.17\Property.cs" />
+    <Compile Include="Assets\Plugins\kbengine\kbengine_unity3d_plugins-0.9.17\kbengine_unity3d_plugins-0.9.17\ScriptModule.cs" />
+    <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\ResourceABs\shader\Hero_ParticleAdditive.shader" />
+    <None Include="Assets\ResourceABs\shader\Hero_Particle_Add.shader" />
+    <None Include="Assets\ResourceABs\shader\Hero_Particle_AlphaBlend.shader" />
+    <None Include="Assets\ResourceABs\shader\Hero_Particle_AlphaBlendColor.shader" />
+    <None Include="Assets\ResourceABs\sheet\DB.xml" />
+    <None Include="Assets\ResourceABs\version\version.xml" />
+    <None Include="Assets\Scripts\Shader\aaa.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
