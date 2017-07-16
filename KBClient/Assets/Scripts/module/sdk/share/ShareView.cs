@@ -42,7 +42,7 @@ namespace xk_System.View.Modules
         public override IEnumerator PrepareResource()
         {
             DebugSystem.Log("准备加载ShareView资源");
-            AssetInfo mAssetInfo = ResourceABsFolder.Instance.atlas.share.mshare_1;
+            AssetInfo mAssetInfo = ResourceABsFolder.Instance.getAsseetInfo("", "");
             yield return AssetBundleManager.Instance.AsyncLoadAsset(mAssetInfo);
             Texture2D o1 = AssetBundleManager.Instance.LoadAsset(mAssetInfo) as Texture2D;
             o = o1;
@@ -57,25 +57,25 @@ namespace xk_System.View.Modules
         }
         private void FindObject()
         {
-            Transform mT = transform.FindChild("Button_QQ");
+            Transform mT = transform.Find("Button_QQ");
             mButton_QQ = mT.GetComponent<Button>();
 
-            mT = transform.FindChild("Button_QZONE");
+            mT = transform.Find("Button_QZONE");
             mButton_Qzone  = mT.GetComponent<Button>();
 
-            mT = transform.FindChild("Button_Sina");
+            mT = transform.Find("Button_Sina");
             mButton_Sina = mT.GetComponent<Button>();
 
-            mT = transform.FindChild("Button_WeChat");
+            mT = transform.Find("Button_WeChat");
             mButton_WeChat  = mT.GetComponent<Button>();
 
-            mT = transform.FindChild("Button_WeChat_timeline");
+            mT = transform.Find("Button_WeChat_timeline");
             mButton_WeChat_TimeLine  = mT.GetComponent<Button>();
 
-            mT = transform.FindChild("Button_WeChat_session");
+            mT = transform.Find("Button_WeChat_session");
             mButton_WeChat_Session = mT.GetComponent<Button>();
 
-            mT = transform.FindChild("Close");
+            mT = transform.Find("Close");
             mCloseBtn = mT.GetComponent<Button>();
         }
 
@@ -255,7 +255,7 @@ namespace xk_System.View.Modules
 
         private string GetLocalImageUrl()
         {
-            AssetInfo mAssetInfo = ResourceABsFolder.Instance.atlas.share.mshare_1;       
+            AssetInfo mAssetInfo = ResourceABsFolder.Instance.getAsseetInfo("", "");
             string imagePath = Application.persistentDataPath + "/"+mAssetInfo.assetName; 
             if (!File.Exists(imagePath))  
             {

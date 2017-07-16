@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 2791695241
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 456b16fc6a7ea7b3fa76906d1028d83d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 21f0dc8ebad690f009368069428e0a1a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/atlas/emoj/emoj_2.png
+- Assets/ResourceABs/atlas/emoj/emoj_3.png
+- Assets/ResourceABs/atlas/emoj/emoj_1.png
+- Assets/ResourceABs/atlas/emoj/emoj_4.png
+Dependencies: []

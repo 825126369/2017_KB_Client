@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 1355229541
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2130d00a2541c052521faa805a056f7c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fccb50b60b19417926df6e17eaf38a1b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/atlas/effect/jm1070/0_stand_11.png
+- Assets/ResourceABs/atlas/effect/jm1070/0_stand_16.png
+- Assets/ResourceABs/atlas/effect/jm1070/0_stand_12.png
+- Assets/ResourceABs/atlas/effect/jm1070/0_stand_15.png
+- Assets/ResourceABs/atlas/effect/jm1070/0_stand_3.png
+- Assets/ResourceABs/atlas/effect/jm1070/0_stand_4.png
+- Assets/ResourceABs/atlas/effect/jm1070/0_stand_0.png
+- Assets/ResourceABs/atlas/effect/jm1070/0_stand_10.png
+- Assets/ResourceABs/atlas/effect/jm1070/0_stand_7.png
+- Assets/ResourceABs/atlas/effect/jm1070/0_stand_5.png
+- Assets/ResourceABs/atlas/effect/jm1070/0_stand_20.png
+- Assets/ResourceABs/atlas/effect/jm1070/0_stand_8.png
+- Assets/ResourceABs/atlas/effect/jm1070/0_stand_18.png
+- Assets/ResourceABs/atlas/effect/jm1070/0_stand_6.png
+- Assets/ResourceABs/atlas/effect/jm1070/0_stand_13.png
+- Assets/ResourceABs/atlas/effect/jm1070/0_stand_2.png
+- Assets/ResourceABs/atlas/effect/jm1070/0_stand_17.png
+- Assets/ResourceABs/atlas/effect/jm1070/0_stand_19.png
+- Assets/ResourceABs/atlas/effect/jm1070/0_stand_9.png
+- Assets/ResourceABs/atlas/effect/jm1070/config.txt
+- Assets/ResourceABs/atlas/effect/jm1070/0_stand_14.png
+- Assets/ResourceABs/atlas/effect/jm1070/0_stand_1.png
+Dependencies: []

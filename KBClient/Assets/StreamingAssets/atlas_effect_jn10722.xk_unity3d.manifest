@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 1023676813
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b56d0273adb99bcb6745d9d08dce9c0f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fccb50b60b19417926df6e17eaf38a1b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/atlas/effect/jn10722/0_stand_5.png
+- Assets/ResourceABs/atlas/effect/jn10722/0_stand_1.png
+- Assets/ResourceABs/atlas/effect/jn10722/0_stand_0.png
+- Assets/ResourceABs/atlas/effect/jn10722/0_stand_3.png
+- Assets/ResourceABs/atlas/effect/jn10722/0_stand_6.png
+- Assets/ResourceABs/atlas/effect/jn10722/config.txt
+- Assets/ResourceABs/atlas/effect/jn10722/0_stand_4.png
+- Assets/ResourceABs/atlas/effect/jn10722/0_stand_2.png
+- Assets/ResourceABs/atlas/effect/jn10722/0_stand_7.png
+- Assets/ResourceABs/atlas/effect/jn10722/0_stand_8.png
+- Assets/ResourceABs/atlas/effect/jn10722/0_stand_9.png
+Dependencies: []

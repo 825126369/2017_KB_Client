@@ -43,9 +43,11 @@ namespace xk_System.View.Modules
             mLoginViewObj.SetActive(true);
             mRegisterViewObj.SetActive(false);
 
-
             mLoginModel.addDataBind(JudegeOrLoginSuccess, "orLoginSuccess");
             mLoginModel.addDataBind(JudgeOrRegisterSuccess, "orRegisterSuccess");
+
+            KBEngine.Event.registerOut("EnterSelectRoleView", this, "EnterSelectRoleView");
+
         }
 
         protected override void OnDestroy()
@@ -119,7 +121,7 @@ namespace xk_System.View.Modules
             }
             else
             {
-                
+
             }
         }
 
@@ -128,16 +130,19 @@ namespace xk_System.View.Modules
             bool orSuccess = (bool)result;
             if (orSuccess)
             {
-                ShowView<SelectServerView>();
-                HideView<LoginView>();
-
-                PlayerPrefs.SetString(CacheManager.cache_key_account,mAccount.text);
-                PlayerPrefs.SetString(CacheManager.cache_key_password,mPassword.text);
+                PlayerPrefs.SetString(CacheManager.cache_key_account, mAccount.text);
+                PlayerPrefs.SetString(CacheManager.cache_key_password, mPassword.text);
             }
             else
             {
-               
+
             }
+        }
+
+        public void EnterSelectRoleView()
+        {
+            ShowView<RoleSelectView>();
+            HideView<LoginView>();
         }
     }
 }

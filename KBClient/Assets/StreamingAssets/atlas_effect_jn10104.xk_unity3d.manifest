@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3759464199
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4d8738600bc788171901a34cc148df24
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fccb50b60b19417926df6e17eaf38a1b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/atlas/effect/jn10104/0_stand_0.png
+- Assets/ResourceABs/atlas/effect/jn10104/config.txt
+- Assets/ResourceABs/atlas/effect/jn10104/0_stand_1.png
+Dependencies: []

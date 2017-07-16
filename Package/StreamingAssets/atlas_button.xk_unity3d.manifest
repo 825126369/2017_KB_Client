@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 2629561137
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bbe1824700e1e888a46d743cb826e8d1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4774d6da9b606debf00b5a5d61c4487c
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/atlas/button/guanbianjiananxia.png
+- Assets/ResourceABs/atlas/button/guanbi_1.png
+- Assets/ResourceABs/atlas/button/anjian1changtai.png
+- Assets/ResourceABs/atlas/button/shaizi.png
+- Assets/ResourceABs/atlas/button/fanye1.png
+- Assets/ResourceABs/atlas/button/guanbianjianchangtai.png
+- Assets/ResourceABs/atlas/button/biaoqinganjianchangtai.png
+Dependencies: []

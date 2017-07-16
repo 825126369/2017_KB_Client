@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3523666877
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: df5523b5803af67c7874feff54ed9b47
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/scripts/test.bytes
+Dependencies: []

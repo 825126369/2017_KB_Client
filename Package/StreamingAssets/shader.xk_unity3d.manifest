@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 724323269
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 272cac9c848adcc9f83bbda5dc20d69a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cc7b69794a2bdada249e557ebbfded10
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/shader/Hero_Particle_Add.shader
+- Assets/ResourceABs/shader/Hero_ParticleAdditive.shader
+- Assets/ResourceABs/shader/Hero_Particle_AlphaBlend.shader
+- Assets/ResourceABs/shader/Hero_Particle_AlphaBlendColor.shader
+Dependencies:
+- F:/KB_Client/KBClient/Assets/StreamingAssets/skill_textures.xk_unity3d

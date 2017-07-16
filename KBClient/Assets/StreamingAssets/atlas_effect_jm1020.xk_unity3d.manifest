@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 1772534162
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: be3a397442e268f4bb09e96c23dcb13d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fccb50b60b19417926df6e17eaf38a1b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/atlas/effect/jm1020/0_stand_0.png
+- Assets/ResourceABs/atlas/effect/jm1020/config.txt
+Dependencies: []

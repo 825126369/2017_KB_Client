@@ -156,27 +156,27 @@ namespace xk_System.View
             switch (typeof(T).Name)
             {
                 case "ChatView":
-                    return ResourceABsFolder.Instance.view.mChatView;
+                    return ResourceABsFolder.Instance.getAsseetInfo("view", "ChatView");
                 case "LoginView":
-                    return ResourceABsFolder.Instance.view.mLoginView;
+                    return ResourceABsFolder.Instance.getAsseetInfo("view", "LoginView");
                 case "MainView":
-                    return ResourceABsFolder.Instance.view.mMainView;
+                    return ResourceABsFolder.Instance.getAsseetInfo("view", "MainView");
                 case "SelectServerView":
-                    return ResourceABsFolder.Instance.view.mSelectServerView;
+                    return ResourceABsFolder.Instance.getAsseetInfo("view", "SelectServerView");
                 case "ShareView":
-                    return ResourceABsFolder.Instance.view.mShareView;
+                    return ResourceABsFolder.Instance.getAsseetInfo("view", "ShareView");
                 case "WindowLoadingView":
-                    return ResourceABsFolder.Instance.view.mWindowLoadingView;
+                    return ResourceABsFolder.Instance.getAsseetInfo("view", "WindowLoadingView");
                 case "MsgBoxView":
-                    return ResourceABsFolder.Instance.view.mMsgBoxView;
+                    return ResourceABsFolder.Instance.getAsseetInfo("view", "MsgBoxView");
                 case "SceneLoadingView":
-                    return ResourceABsFolder.Instance.view.mSceneLoadingView;
+                    return ResourceABsFolder.Instance.getAsseetInfo("view", "SceneLoadingView");
                 case "StoreView":
-                    return ResourceABsFolder.Instance.view.mStoreView;
+                    return ResourceABsFolder.Instance.getAsseetInfo("view", "StoreView");
                 case "RoleCreateView":
-                    return ResourceABsFolder.Instance.view.mRoleCreateView;
+                    return ResourceABsFolder.Instance.getAsseetInfo("view", "RoleCreateView");
                 case "RoleSelectView":
-                    return ResourceABsFolder.Instance.view.mRoleSelectView;
+                    return ResourceABsFolder.Instance.getAsseetInfo("view", "RoleSelectView");
             }
             DebugSystem.LogError("没有找到资源信息");
             return null;
@@ -196,6 +196,16 @@ namespace xk_System.View
         }
 
         protected virtual void Start()
+        {
+
+        }
+
+        protected virtual void Update()
+        {
+
+        }
+
+        protected virtual void FixedUpdate()
         {
 
         }

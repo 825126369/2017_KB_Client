@@ -1,0 +1,20 @@
+{
+      "offsetXY": {
+            "stand": [
+                  [
+                        {
+                              "y": -45,
+                              "x": -90
+                        }
+                  ]
+            ]
+      },
+      "dirOffset": {
+            "stand": [
+                  {
+                        "dirX": 0,
+                        "dirY": 0
+                  }
+            ]
+      }
+}

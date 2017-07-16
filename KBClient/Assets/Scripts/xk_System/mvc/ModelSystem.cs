@@ -144,24 +144,102 @@ namespace xk_System.Model
                 }
             }
         }
+
+        internal void updateBind(string propertyName,params object[] args)
+        {
+            if (this.m_dicDataBinding.ContainsKey(propertyName))
+            {
+                object objData = this._getPropertyValue(propertyName);
+                List<Action<object>> list = new List<Action<object>>(this.m_dicDataBinding[propertyName]);
+                foreach (Action<object> delegate2 in list)
+                {
+                    delegate2(objData);
+                }
+            }
+        }
     }
 
-    public class NetModel : xk_Model
+    public class DataModel1 : xk_Model
     {
-       /* protected void addNetListenFun(ProtoCommand command, Action<Package> mFun)
+        private Dictionary<string, List<Action<object>>> m_dicDataBinding = null;
+        private Type m_thisType;
+
+        public override void initModel()
         {
-            NetSystem.getSingle().addListenFun((int)command, mFun);
+            base.initModel();
+            m_dicDataBinding = new Dictionary<string, List<Action<object>>>();
+            this.m_thisType = base.GetType();
         }
 
-        protected void removeNetListenFun(ProtoCommand command, Action<Package> mFun)
+        public override void destroyModel()
         {
-            NetSystem.getSingle().removeListenFun((int)command, mFun);
+            base.destroyModel();
+            m_dicDataBinding.Clear();
         }
 
-        protected void sendNetData(ProtoCommand command, object data)
+        private object _getPropertyValue(string strName)
         {
-            NetSystem.getSingle().SendData((int)command, data);
-        }   */ 
+            FieldInfo field = this.m_thisType.GetField(strName);
+            if (field != null)
+            {
+                return field.GetValue(this);
+            }
+            return base.GetType().GetProperty(strName).GetValue(this, null);
+        }
+
+        public void addDataBind(Action<object> callBack, string propertyName)
+        {
+            List<Action<object>> list = null;
+            if (this.m_dicDataBinding.ContainsKey(propertyName))
+            {
+                list = this.m_dicDataBinding[propertyName];
+            }
+            else
+            {
+                list = new List<Action<object>>();
+                this.m_dicDataBinding.Add(propertyName, list);
+            }
+            list.Add(callBack);
+        }
+
+        public void removeDataBind(Action<object> callBack, string propertyName)
+        {
+            List<Action<object>> list = null;
+            if (this.m_dicDataBinding.ContainsKey(propertyName))
+            {
+                list = this.m_dicDataBinding[propertyName];
+                if (list.Contains(callBack))
+                {
+                    list.Remove(callBack);
+                }
+            }
+        }
+
+        internal void updateBind(string propertyName)
+        {
+            if (this.m_dicDataBinding.ContainsKey(propertyName))
+            {
+                object objData = this._getPropertyValue(propertyName);
+                List<Action<object>> list = new List<Action<object>>(this.m_dicDataBinding[propertyName]);
+                foreach (Action<object> delegate2 in list)
+                {
+                    delegate2(objData);
+                }
+            }
+        }
+
+        internal void updateBind(string propertyName, params object[] args)
+        {
+            if (this.m_dicDataBinding.ContainsKey(propertyName))
+            {
+                object objData = this._getPropertyValue(propertyName);
+                List<Action<object>> list = new List<Action<object>>(this.m_dicDataBinding[propertyName]);
+                foreach (Action<object> delegate2 in list)
+                {
+                    delegate2(objData);
+                }
+            }
+        }
     }
 
     public class DataBind<T>

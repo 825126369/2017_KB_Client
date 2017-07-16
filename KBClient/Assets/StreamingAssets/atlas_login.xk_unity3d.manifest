@@ -1,0 +1,47 @@
+ManifestFileVersion: 0
+CRC: 4210356892
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e470662bb2f746e581a7bb60713e3a5b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 21f0dc8ebad690f009368069428e0a1a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/atlas/login/Kelvin 46_5.png
+- Assets/ResourceABs/atlas/login/Kelvin40_2.png
+- Assets/ResourceABs/atlas/login/Kelvin_14_05.png
+- Assets/ResourceABs/atlas/login/Kelvin38_8.png
+- Assets/ResourceABs/atlas/login/Kelvin_9_08.png
+- Assets/ResourceABs/atlas/login/Kelvin34_6.png
+- Assets/ResourceABs/atlas/login/Kelvin43_3.png
+- Assets/ResourceABs/atlas/login/Kelvin_3_01.png
+- Assets/ResourceABs/atlas/login/Kelvin_11_01.png
+- Assets/ResourceABs/atlas/login/Kelvin36_5.png
+- Assets/ResourceABs/atlas/login/Kelvin_5_10.png
+- Assets/ResourceABs/atlas/login/Kelvin 52_1.png
+- Assets/ResourceABs/atlas/login/Kelvin34.jpg
+- Assets/ResourceABs/atlas/login/Kelvin18_05.png
+- Assets/ResourceABs/atlas/login/Kelvin_7_06.png
+- Assets/ResourceABs/atlas/login/Kelvin 48_2.png
+- Assets/ResourceABs/atlas/login/Kelvin_3_04.png
+- Assets/ResourceABs/atlas/login/Kelvin31_6.png
+- Assets/ResourceABs/atlas/login/Kelvin_2_10.png
+- Assets/ResourceABs/atlas/login/Kelvin_1_05.png
+- Assets/ResourceABs/atlas/login/Kelvin27_5.png
+- Assets/ResourceABs/atlas/login/Kelvin_1_10.png
+- Assets/ResourceABs/atlas/login/Kelvin 50_2.png
+- Assets/ResourceABs/atlas/login/Kelvin_6_04.png
+- Assets/ResourceABs/atlas/login/Kelvin 54_6.png
+- Assets/ResourceABs/atlas/login/Kelvin29_1.png
+- Assets/ResourceABs/atlas/login/Kelvin_4_05.png
+- Assets/ResourceABs/atlas/login/Kelvin16_08.png
+- Assets/ResourceABs/atlas/login/Kelvin 56_6.png
+- Assets/ResourceABs/atlas/login/Kelvin44_2.jpg
+Dependencies: []

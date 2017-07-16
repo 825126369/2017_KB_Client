@@ -6,7 +6,6 @@ using System;
 
 public class MakeAtlasTools
 {
-    #region
     [MenuItem("UnityEditor/GenerationPackage/MakeAllAtlas")]
     public static void MakeAllAtlas()
     {
@@ -20,15 +19,59 @@ public class MakeAtlasTools
         DirectoryInfo mDir = new DirectoryInfo(path);
         foreach (var v in mDir.GetDirectories())
         {
-            foreach (var v1 in v.GetFiles())
+            CheckSubAtals(v.FullName);
+        }
+    }
+
+    private static void CheckSubAtals(string path)
+    {
+        DirectoryInfo mDir = new DirectoryInfo(path);
+        foreach (var v1 in mDir.GetFiles())
+        {
+            if (v1.Extension != ".meta" && (v1.Extension == ".png" || v1.Extension == ".jpg"))
             {
-                if (v1.Extension != ".meta")
-                {
-                    string assetPath = "Assets/ResourceABs/atlas/" + v.Name + "/" + v1.Name;
-                    CheckTextureInfoAndRepairIfNeed(assetPath, v.Name);
-                }
+                string assetPath = GetAssetPath(mDir.FullName, v1.Name);
+                string tag = GetTagName(mDir.FullName);
+                CheckTextureInfoAndRepairIfNeed(assetPath, tag);
+            }
+            else if (v1.Extension != ".meta" && v1.Extension != ".png" && v1.Extension != ".jpg")
+            {
+                Debug.LogError("文件格式不对：" + v1.FullName + " not sprite!!!");
             }
         }
+
+        foreach (var v1 in mDir.GetDirectories())
+        {
+            CheckSubAtals(v1.FullName);
+        }
+    }
+
+
+    public static string GetAssetPath(string DirFullName, string assetName)
+    {
+        DirFullName = DirFullName.Replace(@"\","/");
+        int index = DirFullName.IndexOf("Assets/ResourceABs/");
+        string path = DirFullName.Substring(index);
+        if (path.EndsWith("/"))
+        {
+            path = path.Remove(path.Length - 1);
+        }
+        path += "/" + assetName;
+        return path;
+    }
+
+    public static string GetTagName(string DirFullName)
+    {
+        DirFullName = DirFullName.Replace(@"\", "/");
+        string Staff = "Assets/ResourceABs/atlas";
+        int index = DirFullName.IndexOf(Staff);
+        string path = DirFullName.Substring(index+Staff.Length);
+        if (path.EndsWith("/"))
+        {
+            path = path.Remove(path.Length - 1);
+        }
+        path = path.Replace("/","_").ToLower();
+        return path;
     }
 
     /// <summary>
@@ -38,13 +81,13 @@ public class MakeAtlasTools
     /// <param name="UITypeFileName">图片的打包标签参考对象</param>
     /// <param name="needRepair">是否需要修复，需要修复的话就不打错误日志了而是修复日志</param>
     /// <returns>图片是否设置正确</returns>
-    private static bool CheckTextureInfoAndRepairIfNeed(string assetPath, string UITypeFileName = null, bool needRepair = true)
+    private static bool CheckTextureInfoAndRepairIfNeed(string assetPath, string Tag = null, bool needRepair = true)
     {
         TextureImporter ti = AssetImporter.GetAtPath(assetPath) as TextureImporter;
         bool isRight = true;
         if (ti.textureType != TextureImporterType.Sprite)
         {
-            if (ti.textureType != TextureImporterType.Default || ti.spriteImportMode == SpriteImportMode.None)
+            /*if (ti.textureType != TextureImporterType.Default || ti.spriteImportMode == SpriteImportMode.None)
             {
                 if (!needRepair)
                 {
@@ -52,9 +95,10 @@ public class MakeAtlasTools
                     Debug.LogError(string.Format(debugLog, assetPath));
                 }
                 isRight = false;
-            }
+            }*/
+            isRight = false;
         }
-        else if (!string.IsNullOrEmpty(UITypeFileName) && ti.spritePackingTag != UITypeFileName)
+        else if (!string.IsNullOrEmpty(Tag) && ti.spritePackingTag != Tag)
         {
             if (!needRepair)
             {
@@ -72,7 +116,7 @@ public class MakeAtlasTools
             }
             // UI图都不需要mipmap//
             isRight = false;
-        } else if (ti.textureFormat != TextureImporterFormat.AutomaticCompressed)
+        } else if (ti.textureCompression != TextureImporterCompression.Compressed)
         {
             isRight = false;
         } else if(ti.spritePixelsPerUnit!=100)
@@ -82,19 +126,15 @@ public class MakeAtlasTools
 
         if (!isRight && needRepair)
         {
-            if (ti.textureType != TextureImporterType.Default)
-            {
-                ti.textureType = TextureImporterType.Sprite;
-            }
+            ti.textureType = TextureImporterType.Sprite;
             ti.spriteImportMode = SpriteImportMode.Single;
-            ti.spritePackingTag = UITypeFileName;
+            ti.spritePackingTag = Tag;
             ti.mipmapEnabled = false;
             ti.spritePixelsPerUnit = 100;
-            ti.textureFormat = TextureImporterFormat.AutomaticCompressed;
+            ti.textureCompression = TextureImporterCompression.Compressed;
             ti.SaveAndReimport();
             Debug.Log(string.Format("The set of Texture where path is \"{0}\" has been repaired.", assetPath));
         }
         return isRight;
     }
-    #endregion
 }

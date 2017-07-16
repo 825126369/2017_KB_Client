@@ -16,7 +16,7 @@
     <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>WebGL:20</UnityBuildTarget>
-    <UnityVersion>5.6.0f3</UnityVersion>
+    <UnityVersion>2017.1.0f3</UnityVersion>
     <RootNamespace></RootNamespace>
     <LangVersion>4</LangVersion>
   </PropertyGroup>
@@ -27,7 +27,7 @@
     <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_IL2CPP;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_0;UNITY_2017_1;UNITY_2017;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_WEBGL;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_IL2CPP;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -37,7 +37,7 @@
     <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_IL2CPP;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_0;UNITY_2017_1;UNITY_2017;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_WEBGL;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_IL2CPP;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
@@ -49,6 +49,9 @@
     <Reference Include="UnityScript.Lang" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
@@ -64,17 +67,14 @@
     <Reference Include="nunit.framework">
       <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Timeline.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VR">
-      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor">
-      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-UnityScript-firstpass">
       <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
@@ -87,28 +87,34 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\UIEffect\Rainbow.cs" />
+    <Compile Include="Assets\kbe_Scripts\kbe_scripts\Account.cs" />
+    <Compile Include="Assets\kbe_Scripts\kbe_scripts\Avatar.cs" />
+    <Compile Include="Assets\kbe_Scripts\kbe_scripts\clientapp.cs" />
+    <Compile Include="Assets\kbe_Scripts\kbe_scripts\Gate.cs" />
+    <Compile Include="Assets\kbe_Scripts\kbe_scripts\interfaces\Combat.cs" />
+    <Compile Include="Assets\kbe_Scripts\kbe_scripts\interfaces\GameObject.cs" />
+    <Compile Include="Assets\kbe_Scripts\kbe_scripts\interfaces\if_Entity_error_use______git_submodule_update_____kbengine_plugins_______open_this_file_and_I_will_tell_you.cs" />
+    <Compile Include="Assets\kbe_Scripts\kbe_scripts\interfaces\SkillBox.cs" />
+    <Compile Include="Assets\kbe_Scripts\kbe_scripts\Monster.cs" />
+    <Compile Include="Assets\kbe_Scripts\kbe_scripts\NPC.cs" />
+    <Compile Include="Assets\kbe_Scripts\kbe_scripts\skills\Skill.cs" />
+    <Compile Include="Assets\kbe_Scripts\kbe_scripts\skills\SkillObject.cs" />
+    <Compile Include="Assets\kbe_Scripts\u3d_scripts\GameEntity.cs" />
+    <Compile Include="Assets\kbe_Scripts\u3d_scripts\ShowFPS.cs" />
+    <Compile Include="Assets\kbe_Scripts\u3d_scripts\UI.cs" />
+    <Compile Include="Assets\kbe_Scripts\u3d_scripts\World.cs" />
     <Compile Include="Assets\Scripts\auto\DB.cs" />
     <Compile Include="Assets\Scripts\auto\ResourceABs.cs" />
     <Compile Include="Assets\Scripts\module\3d\PlayerDataManager.cs" />
-    <Compile Include="Assets\Scripts\module\init\GameEngine.cs" />
-    <Compile Include="Assets\Scripts\module\init\initManager.cs" />
     <Compile Include="Assets\Scripts\module\init\initView.cs" />
     <Compile Include="Assets\Scripts\module\init\intModel.cs" />
     <Compile Include="Assets\Scripts\module\sdk\share\ShareModel.cs" />
     <Compile Include="Assets\Scripts\module\sdk\share\ShareView.cs" />
-    <Compile Include="Assets\Scripts\module\sdk\voice\MicphoneTest.cs" />
     <Compile Include="Assets\Scripts\module\time\TimeModel.cs" />
-    <Compile Include="Assets\Scripts\module\view\Loading\MainScenePrepareTask.cs" />
-    <Compile Include="Assets\Scripts\module\view\Loading\SceneLoadingView.cs" />
-    <Compile Include="Assets\Scripts\module\view\Loading\SceneManager.cs" />
-    <Compile Include="Assets\Scripts\module\view\Loading\TaskProgressBar.cs" />
-    <Compile Include="Assets\Scripts\module\view\Loading\WindowLoadingView.cs" />
-    <Compile Include="Assets\Scripts\module\view\Tip\MsgBoxView.cs" />
     <Compile Include="Assets\Scripts\module\view\chat\component\ChatScrollView.cs" />
     <Compile Include="Assets\Scripts\module\view\chat\component\ExpressionShowItem.cs" />
-    <Compile Include="Assets\Scripts\module\view\chat\component\xk_chatItem.cs" />
     <Compile Include="Assets\Scripts\module\view\chat\component\xk_chat_LineItem.cs" />
+    <Compile Include="Assets\Scripts\module\view\chat\component\xk_chatItem.cs" />
     <Compile Include="Assets\Scripts\module\view\chat\model\ChatModel.cs" />
     <Compile Include="Assets\Scripts\module\view\chat\plugin\ExpressionItem.cs" />
     <Compile Include="Assets\Scripts\module\view\chat\plugin\ExpressionText.cs" />
@@ -123,8 +129,13 @@
     <Compile Include="Assets\Scripts\module\view\common\CommonScrollView.cs" />
     <Compile Include="Assets\Scripts\module\view\common\EventTriggerListener.cs" />
     <Compile Include="Assets\Scripts\module\view\common\xScrollViewBase.cs" />
+    <Compile Include="Assets\Scripts\module\view\Loading\MainScenePrepareTask.cs" />
+    <Compile Include="Assets\Scripts\module\view\Loading\SceneLoadingView.cs" />
+    <Compile Include="Assets\Scripts\module\view\Loading\SceneManager.cs" />
+    <Compile Include="Assets\Scripts\module\view\Loading\TaskProgressBar.cs" />
+    <Compile Include="Assets\Scripts\module\view\Loading\WindowLoadingView.cs" />
     <Compile Include="Assets\Scripts\module\view\login\LoginCommand.cs" />
-    <Compile Include="Assets\Scripts\module\view\login\LoginDataModel.cs" />
+    <Compile Include="Assets\Scripts\module\view\login\LoginModel.cs" />
     <Compile Include="Assets\Scripts\module\view\login\LoginView.cs" />
     <Compile Include="Assets\Scripts\module\view\main\MainModel.cs" />
     <Compile Include="Assets\Scripts\module\view\main\MainView.cs" />
@@ -132,10 +143,10 @@
     <Compile Include="Assets\Scripts\module\view\selectRole\view\RoleCreateView.cs" />
     <Compile Include="Assets\Scripts\module\view\selectRole\view\RoleSelectView.cs" />
     <Compile Include="Assets\Scripts\module\view\selectRole\view\SelectHeroItem.cs" />
-    <Compile Include="Assets\Scripts\module\view\selectServer\SelectServerModel.cs" />
-    <Compile Include="Assets\Scripts\module\view\selectServer\SelectServerView.cs" />
     <Compile Include="Assets\Scripts\module\view\selectServer\component\SelectServerScrollView.cs" />
     <Compile Include="Assets\Scripts\module\view\selectServer\component\ServerItem.cs" />
+    <Compile Include="Assets\Scripts\module\view\selectServer\SelectServerModel.cs" />
+    <Compile Include="Assets\Scripts\module\view\selectServer\SelectServerView.cs" />
     <Compile Include="Assets\Scripts\module\view\store\component\StoreSubItemLineManager.cs" />
     <Compile Include="Assets\Scripts\module\view\store\item\SotreAllItem.cs" />
     <Compile Include="Assets\Scripts\module\view\store\item\StoreCompoundItem.cs" />
@@ -146,16 +157,25 @@
     <Compile Include="Assets\Scripts\module\view\store\view\StoreAllItemView.cs" />
     <Compile Include="Assets\Scripts\module\view\store\view\StoreRecommendView.cs" />
     <Compile Include="Assets\Scripts\module\view\store\view\StoreView.cs" />
+    <Compile Include="Assets\Scripts\module\view\Tip\MsgBoxView.cs" />
     <Compile Include="Assets\Scripts\tools\MonoVersion.cs" />
+    <Compile Include="Assets\Scripts\UIEffect\Rainbow.cs" />
     <Compile Include="Assets\Scripts\xk_System\AssetPackage\AssemblyManager.cs" />
     <Compile Include="Assets\Scripts\xk_System\AssetPackage\AssetBundleManager.cs" />
     <Compile Include="Assets\Scripts\xk_System\AssetPackage\AtlasManager.cs" />
+    <Compile Include="Assets\Scripts\xk_System\AssetPackage\ResourceABs.cs" />
     <Compile Include="Assets\Scripts\xk_System\AudioManager\AudioManager.cs" />
     <Compile Include="Assets\Scripts\xk_System\ConfigTable\DbSystem.cs" />
     <Compile Include="Assets\Scripts\xk_System\Debug\LogManager.cs" />
     <Compile Include="Assets\Scripts\xk_System\Encryption\EncryptionSystem.cs" />
     <Compile Include="Assets\Scripts\xk_System\Encryption\RSA.cs" />
     <Compile Include="Assets\Scripts\xk_System\HotUpdate\AssetBundleHotUpdateManager.cs" />
+    <Compile Include="Assets\Scripts\xk_System\init\GameEngine.cs" />
+    <Compile Include="Assets\Scripts\xk_System\init\initManager.cs" />
+    <Compile Include="Assets\Scripts\xk_System\mvc\ModelSystem.cs" />
+    <Compile Include="Assets\Scripts\xk_System\mvc\mvc.cs" />
+    <Compile Include="Assets\Scripts\xk_System\mvc\ObjectRoot.cs" />
+    <Compile Include="Assets\Scripts\xk_System\mvc\WindowManager.cs" />
     <Compile Include="Assets\Scripts\xk_System\Reflection\ReflectionSystem.cs" />
     <Compile Include="Assets\Scripts\xk_System\Sdk\MiniJSON.cs" />
     <Compile Include="Assets\Scripts\xk_System\Sdk\SdkManager.cs" />
@@ -169,41 +189,305 @@
     <Compile Include="Assets\Scripts\xk_System\Utility\HttpUtility.cs" />
     <Compile Include="Assets\Scripts\xk_System\Utility\Singleton.cs" />
     <Compile Include="Assets\Scripts\xk_System\Utility\Utility.cs" />
-    <Compile Include="Assets\Scripts\xk_System\mvc\ModelSystem.cs" />
-    <Compile Include="Assets\Scripts\xk_System\mvc\ObjectRoot.cs" />
-    <Compile Include="Assets\Scripts\xk_System\mvc\WindowManager.cs" />
-    <Compile Include="Assets\Scripts\xk_System\mvc\mvc.cs" />
     <Compile Include="Assets\TEST\AndroidSdkTest\AndroidSdkManagerTest.cs" />
     <Compile Include="Assets\TEST\CSharp_TEST\CSharp_Main.cs" />
-    <Compile Include="Assets\TEST\CSharp_TEST\CSharp_TEST3.cs" />
     <Compile Include="Assets\TEST\CSharp_TEST\CSharp_Test1.cs" />
     <Compile Include="Assets\TEST\CSharp_TEST\CSharp_Test2.cs" />
-    <Compile Include="Assets\TEST\Db_TEST\TestDb.cs" />
+    <Compile Include="Assets\TEST\CSharp_TEST\CSharp_TEST3.cs" />
     <Compile Include="Assets\TEST\Db_TEST\dbtest_main.cs" />
+    <Compile Include="Assets\TEST\Db_TEST\TestDb.cs" />
     <Compile Include="Assets\TEST\Net_TEST\Net_Test.cs" />
     <Compile Include="Assets\TEST\Net_TEST\test.cs" />
+    <Compile Include="Assets\TEST\test_md5.cs" />
     <Compile Include="Assets\TEST\UGUI_TEST\UGUI_TEST.cs" />
     <Compile Include="Assets\TEST\UGUI_TEST\xk_Text_Effect.cs" />
     <Compile Include="Assets\TEST\Unity_TEST\test_view.cs" />
-    <Compile Include="Assets\TEST\test_md5.cs" />
-    <Compile Include="Assets\kbe_Scripts\kbe_scripts\Account.cs" />
-    <Compile Include="Assets\kbe_Scripts\kbe_scripts\Avatar.cs" />
-    <Compile Include="Assets\kbe_Scripts\kbe_scripts\Gate.cs" />
-    <Compile Include="Assets\kbe_Scripts\kbe_scripts\Monster.cs" />
-    <Compile Include="Assets\kbe_Scripts\kbe_scripts\NPC.cs" />
-    <Compile Include="Assets\kbe_Scripts\kbe_scripts\clientapp.cs" />
-    <Compile Include="Assets\kbe_Scripts\kbe_scripts\interfaces\Combat.cs" />
-    <Compile Include="Assets\kbe_Scripts\kbe_scripts\interfaces\GameObject.cs" />
-    <Compile Include="Assets\kbe_Scripts\kbe_scripts\interfaces\SkillBox.cs" />
-    <Compile Include="Assets\kbe_Scripts\kbe_scripts\interfaces\if_Entity_error_use______git_submodule_update_____kbengine_plugins_______open_this_file_and_I_will_tell_you.cs" />
-    <Compile Include="Assets\kbe_Scripts\kbe_scripts\skills\Skill.cs" />
-    <Compile Include="Assets\kbe_Scripts\kbe_scripts\skills\SkillObject.cs" />
-    <Compile Include="Assets\kbe_Scripts\u3d_scripts\GameEntity.cs" />
-    <Compile Include="Assets\kbe_Scripts\u3d_scripts\ShowFPS.cs" />
-    <Compile Include="Assets\kbe_Scripts\u3d_scripts\UI.cs" />
-    <Compile Include="Assets\kbe_Scripts\u3d_scripts\World.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\ResourceABs\atlas\effect\jm1005\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1006\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1007\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1008\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1009\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1010\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1011\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1012\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1013\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1016\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1017\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1018\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1019\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1020\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1026\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1027\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1028\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1029\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1030\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1031\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1032\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1034\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1036\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1037\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1038\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1039\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1040\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1041\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1042\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1043\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1045\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1047\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1048\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1049\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1050\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1051\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1052\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1053\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1054\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1055\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1056\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1057\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1058\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1059\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1060\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1061\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1062\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1063\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1064\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1065\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1066\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1067\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1068\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1069\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1070\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1071\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1072\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1073\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1074\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1075\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1076\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1077\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1078\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1079\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1080\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1081\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1082\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1083\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1084\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1085\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1086\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1087\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1088\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1089\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1090\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1091\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1092\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1093\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1094\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1095\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1096\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1097\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1098\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1099\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1100\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1101\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1102\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1103\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1104\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1105\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1106\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1107\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1108\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1109\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1110\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1111\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1112\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1120\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1121\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1122\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1123\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1124\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1125\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1128\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1129\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1130\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1131\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1132\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1133\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1134\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1135\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1136\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1137\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1138\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1139\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1141\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1142\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1143\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1144\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1145\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1146\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1147\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1148\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1149\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1151\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1152\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1153\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1154\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1155\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1156\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1157\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1158\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1159\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1160\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1161\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1162\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1163\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1164\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1165\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1166\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1167\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1168\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1169\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1170\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1171\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1172\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1173\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1174\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1175\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1176\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1177\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1178\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1179\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1180\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1182\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1183\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1184\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1185\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1186\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jm1187\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10010\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10020\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10030\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10040\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10050\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10060\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10070\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10072\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10073\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10080\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10081\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10090\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10091\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10100\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10101\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10103\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10104\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10110\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10111\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10120\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10131\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10141\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10151\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10160\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10161\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10170\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10171\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10180\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10182\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10183\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10184\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10190\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10200\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10201\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10202\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10210\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10212\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10213\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10220\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10221\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10230\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10232\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10233\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10234\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10240\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10241\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10250\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10251\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10260\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10270\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10271\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10272\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10273\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10280\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10281\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10282\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10290\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10291\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10292\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10293\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10300\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10301\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10302\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10303\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10304\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10310\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10320\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10330\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10340\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10351\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10360\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10371\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10374\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10380\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10390\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10400\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10401\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10410\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10422\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10423\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10430\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10431\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10440\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10450\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10460\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10474\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10480\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10494\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10500\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10510\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10520\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10530\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10540\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10550\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10560\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10580\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10590\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10600\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10610\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10620\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10621\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10630\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10640\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10641\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10642\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10650\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10651\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10660\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10670\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10671\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10680\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10690\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10691\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10710\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10711\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10712\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10720\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10721\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10722\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10730\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10740\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10750\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10760\config.txt" />
+    <None Include="Assets\ResourceABs\atlas\effect\jn10770\config.txt" />
     <None Include="Assets\ResourceABs\shader\Hero_ParticleAdditive.shader" />
     <None Include="Assets\ResourceABs\shader\Hero_Particle_Add.shader" />
     <None Include="Assets\ResourceABs\shader\Hero_Particle_AlphaBlend.shader" />

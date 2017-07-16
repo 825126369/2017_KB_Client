@@ -1,0 +1,92 @@
+ManifestFileVersion: 0
+CRC: 752829245
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f885cb8056a60e692788049ab016cda9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fccb50b60b19417926df6e17eaf38a1b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/atlas/effect/jn10610/1_stand_0.png
+- Assets/ResourceABs/atlas/effect/jn10610/6_stand_7.png
+- Assets/ResourceABs/atlas/effect/jn10610/5_stand_7.png
+- Assets/ResourceABs/atlas/effect/jn10610/0_stand_8.png
+- Assets/ResourceABs/atlas/effect/jn10610/6_stand_3.png
+- Assets/ResourceABs/atlas/effect/jn10610/7_stand_5.png
+- Assets/ResourceABs/atlas/effect/jn10610/4_stand_5.png
+- Assets/ResourceABs/atlas/effect/jn10610/5_stand_3.png
+- Assets/ResourceABs/atlas/effect/jn10610/7_stand_6.png
+- Assets/ResourceABs/atlas/effect/jn10610/5_stand_8.png
+- Assets/ResourceABs/atlas/effect/jn10610/0_stand_5.png
+- Assets/ResourceABs/atlas/effect/jn10610/2_stand_1.png
+- Assets/ResourceABs/atlas/effect/jn10610/7_stand_0.png
+- Assets/ResourceABs/atlas/effect/jn10610/3_stand_1.png
+- Assets/ResourceABs/atlas/effect/jn10610/3_stand_7.png
+- Assets/ResourceABs/atlas/effect/jn10610/5_stand_0.png
+- Assets/ResourceABs/atlas/effect/jn10610/1_stand_5.png
+- Assets/ResourceABs/atlas/effect/jn10610/4_stand_8.png
+- Assets/ResourceABs/atlas/effect/jn10610/5_stand_1.png
+- Assets/ResourceABs/atlas/effect/jn10610/3_stand_5.png
+- Assets/ResourceABs/atlas/effect/jn10610/4_stand_3.png
+- Assets/ResourceABs/atlas/effect/jn10610/7_stand_1.png
+- Assets/ResourceABs/atlas/effect/jn10610/1_stand_4.png
+- Assets/ResourceABs/atlas/effect/jn10610/0_stand_7.png
+- Assets/ResourceABs/atlas/effect/jn10610/1_stand_6.png
+- Assets/ResourceABs/atlas/effect/jn10610/6_stand_8.png
+- Assets/ResourceABs/atlas/effect/jn10610/4_stand_1.png
+- Assets/ResourceABs/atlas/effect/jn10610/7_stand_7.png
+- Assets/ResourceABs/atlas/effect/jn10610/6_stand_6.png
+- Assets/ResourceABs/atlas/effect/jn10610/0_stand_6.png
+- Assets/ResourceABs/atlas/effect/jn10610/2_stand_4.png
+- Assets/ResourceABs/atlas/effect/jn10610/4_stand_6.png
+- Assets/ResourceABs/atlas/effect/jn10610/3_stand_8.png
+- Assets/ResourceABs/atlas/effect/jn10610/3_stand_3.png
+- Assets/ResourceABs/atlas/effect/jn10610/5_stand_5.png
+- Assets/ResourceABs/atlas/effect/jn10610/0_stand_0.png
+- Assets/ResourceABs/atlas/effect/jn10610/2_stand_0.png
+- Assets/ResourceABs/atlas/effect/jn10610/7_stand_2.png
+- Assets/ResourceABs/atlas/effect/jn10610/7_stand_4.png
+- Assets/ResourceABs/atlas/effect/jn10610/3_stand_4.png
+- Assets/ResourceABs/atlas/effect/jn10610/6_stand_5.png
+- Assets/ResourceABs/atlas/effect/jn10610/2_stand_2.png
+- Assets/ResourceABs/atlas/effect/jn10610/2_stand_3.png
+- Assets/ResourceABs/atlas/effect/jn10610/1_stand_7.png
+- Assets/ResourceABs/atlas/effect/jn10610/5_stand_4.png
+- Assets/ResourceABs/atlas/effect/jn10610/6_stand_0.png
+- Assets/ResourceABs/atlas/effect/jn10610/4_stand_0.png
+- Assets/ResourceABs/atlas/effect/jn10610/7_stand_3.png
+- Assets/ResourceABs/atlas/effect/jn10610/1_stand_3.png
+- Assets/ResourceABs/atlas/effect/jn10610/0_stand_4.png
+- Assets/ResourceABs/atlas/effect/jn10610/1_stand_2.png
+- Assets/ResourceABs/atlas/effect/jn10610/6_stand_4.png
+- Assets/ResourceABs/atlas/effect/jn10610/6_stand_1.png
+- Assets/ResourceABs/atlas/effect/jn10610/config.txt
+- Assets/ResourceABs/atlas/effect/jn10610/3_stand_6.png
+- Assets/ResourceABs/atlas/effect/jn10610/1_stand_1.png
+- Assets/ResourceABs/atlas/effect/jn10610/3_stand_0.png
+- Assets/ResourceABs/atlas/effect/jn10610/4_stand_7.png
+- Assets/ResourceABs/atlas/effect/jn10610/0_stand_1.png
+- Assets/ResourceABs/atlas/effect/jn10610/4_stand_2.png
+- Assets/ResourceABs/atlas/effect/jn10610/1_stand_8.png
+- Assets/ResourceABs/atlas/effect/jn10610/4_stand_4.png
+- Assets/ResourceABs/atlas/effect/jn10610/0_stand_2.png
+- Assets/ResourceABs/atlas/effect/jn10610/2_stand_8.png
+- Assets/ResourceABs/atlas/effect/jn10610/2_stand_7.png
+- Assets/ResourceABs/atlas/effect/jn10610/2_stand_5.png
+- Assets/ResourceABs/atlas/effect/jn10610/5_stand_6.png
+- Assets/ResourceABs/atlas/effect/jn10610/6_stand_2.png
+- Assets/ResourceABs/atlas/effect/jn10610/3_stand_2.png
+- Assets/ResourceABs/atlas/effect/jn10610/0_stand_3.png
+- Assets/ResourceABs/atlas/effect/jn10610/5_stand_2.png
+- Assets/ResourceABs/atlas/effect/jn10610/7_stand_8.png
+- Assets/ResourceABs/atlas/effect/jn10610/2_stand_6.png
+Dependencies: []

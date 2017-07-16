@@ -25,11 +25,11 @@ namespace xk_System.View.Modules
         private int CurrentProfessionId = -1;
         private string CurrentName = string.Empty;
 
-        //private LoginMessage mLoginMessage=null;
+        private SelectRoleModel mSelectRoleModel=null;
         protected override void Awake()
         {
             base.Awake();
-           // mLoginMessage = GetModel<LoginMessage>();
+            mSelectRoleModel = GetModel<SelectRoleModel>();
             mSex_Boy.onValueChanged.AddListener(OnValueChange_Sex);
             mSex_Girl.onValueChanged.AddListener(OnValueChange_Sex);
             mProfression_warrior.onValueChanged.AddListener(OnValueChange_Profession);
@@ -69,7 +69,7 @@ namespace xk_System.View.Modules
                 DebugSystem.LogError("请选择角色职业");
                 return;
             }
-          //  mLoginMessage.send_CreateRole(CurrentName,(uint)CurrentSexId,(uint)CurrentProfessionId);
+            mSelectRoleModel.request_creteRole(CurrentName);
         }
 
         private void OnValueChange_Sex(bool orValueChanged)
@@ -114,7 +114,6 @@ namespace xk_System.View.Modules
         protected override void OnEnable()
         {
             base.OnEnable();
-            //mLoginMessage.mCreateRoleResult.addDataBind(Receive_CreateRoleResult);
 
             mSex_Boy.isOn = true;
             CurrentSexId = 1;
@@ -122,23 +121,6 @@ namespace xk_System.View.Modules
             CurrentProfessionId = 1;
             mName.text = string.Empty;
             CurrentName = string.Empty;
-        }
-
-        /*private void Receive_CreateRoleResult(scCreateRole mdata)
-        {
-            if(mdata.Result==1)
-            {
-                DebugSystem.Log("创建角色成功");
-            }else
-            {
-                DebugSystem.Log("创建角色失败："+mdata.Result);
-            }
-        }*/
-
-        protected override void OnDisable()
-        {
-            base.OnDisable();
-           // mLoginMessage.mCreateRoleResult.removeDataBind(Receive_CreateRoleResult);
         }
     }
 }

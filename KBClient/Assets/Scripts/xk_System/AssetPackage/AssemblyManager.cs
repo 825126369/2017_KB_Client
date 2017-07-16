@@ -16,7 +16,7 @@ namespace xk_System.AssetPackage
         /// <returns></returns>
         public IEnumerator LoadAssembly()
         {
-            AssetInfo mAssetInfo = ResourceABsFolder.Instance.scripts.mtest;
+            AssetInfo mAssetInfo = ResourceABsFolder.Instance.getAsseetInfo("scripts", "test");
             string path = AssetBundlePath.Instance.ExternalStorePathUrl;
 
             string bundleName1 = mAssetInfo.bundleName;

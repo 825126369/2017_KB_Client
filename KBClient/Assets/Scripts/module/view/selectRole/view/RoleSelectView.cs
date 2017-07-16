@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using xk_System.Debug;
 using xk_System.Model;
 using System.Collections.Generic;
+using System;
 
 namespace xk_System.View.Modules
 {
@@ -16,39 +17,31 @@ namespace xk_System.View.Modules
         public Transform mHero2DParent;
         public SelectHeroItem mHero2DItemPrefab;
 
-        private ulong CurrentSelectRoleId = 0;
-        //private LoginMessage mLoginMessage=null;
         private SelectRoleModel mSelectRoleModel = null;
         protected override void Awake()
         {
             base.Awake();
-           // mLoginMessage = GetModel<LoginMessage>();
             mSelectRoleModel = GetModel<SelectRoleModel>();
             mEnterGameBtn.onClick.AddListener(Click_EnterGameBtn);
             mGoCreateRoleBtn.onClick.AddListener(Click_CreateRoleBtn);
+
+            mSelectRoleModel.addDataBind(RefreshView, " ui_avatarList");
+            RefreshView();
         }
 
-        protected override void OnEnable()
+        protected override void OnDestroy()
         {
-            base.OnEnable();
-            //mLoginMessage.mSelectRoleResult.addDataBind(GetSelectRoleResult);
-           // mSelectRoleModel.addDataBind(RefreshView, "mHaveRoleList");
-           // RefreshView();
-        }
-
-        protected override void OnDisable()
-        {
-            base.OnDisable();
-           // mLoginMessage.mSelectRoleResult.removeDataBind(GetSelectRoleResult);
-           // mSelectRoleModel.removeDataBind(RefreshView, "mHaveRoleList");
+            base.OnDestroy();
+            mSelectRoleModel.removeDataBind(RefreshView, " ui_avatarList");
         }
 
         private void Click_EnterGameBtn()
         {
-            if (CurrentSelectRoleId > 0)
+            if (mSelectRoleModel.LastSelectRoleId > 0)
             {
-                //mLoginMessage.send_SelectRole(CurrentSelectRoleId);
-            }else
+                KBEngine.Event.fireIn("selectAvatarGame", mSelectRoleModel.LastSelectRoleId);
+            }
+            else
             {
                 DebugSystem.LogError("role id is zero");
             }
@@ -60,24 +53,19 @@ namespace xk_System.View.Modules
             ShowView<RoleCreateView>();
         }
 
-        /*private void GetSelectRoleResult(scSelectRole mdata)
+        public void GetSelectRoleResult(ulong playerId)
         {
-            if(mdata.Result==1)
-            {
-                DebugSystem.Log("进入游戏");
-                SceneSystem.Instance.GoToScene(SceneInfo.Scene_2);
-            }else
-            {
-                DebugSystem.LogError("Select Role result is Error:"+mdata.Result);
-            }
-        }*/
+            mSelectRoleModel.LastSelectRoleId = playerId;
+        }
 
-        /*private void RefreshView(object data=null)
+        private void RefreshView(object data=null)
         {
-            List<struct_PlayerDetailInfo> mPlayerList = mSelectRoleModel.mHaveRoleList;
-            for(int i=0;i<mPlayerList.Count;i++)
+            Dictionary<UInt64, Dictionary<string, object>> mPlayerList = mSelectRoleModel.ui_avatarList;
+            int i = 0;
+            foreach(var v in mPlayerList)
             {
-                if(i>=mHero2DParent.childCount)
+                ulong uuid = v.Key;
+                if (i>=mHero2DParent.childCount)
                 {
                     GameObject obj = Instantiate<GameObject>(mHero2DItemPrefab.gameObject);
                     obj.transform.SetParent(mHero2DParent);
@@ -85,19 +73,20 @@ namespace xk_System.View.Modules
                     obj.transform.localScale = Vector3.one;
                 }
                 SelectHeroItem mItem = mHero2DParent.GetChild(i).GetComponent<SelectHeroItem>();
-                mItem.RefreshItem(mPlayerList[i]);
+                mItem.RefreshItem(this,uuid);
                 mItem.gameObject.SetActive(true);
+                i++;
             }
 
-            for(int i=mPlayerList.Count;i<mHero2DParent.childCount;i++)
+            for(int j=mPlayerList.Count;j<mHero2DParent.childCount;j++)
             {
-                mHero2DParent.GetChild(i).gameObject.SetActive(false);
+                mHero2DParent.GetChild(j).gameObject.SetActive(false);
             }
 
             if(mSelectRoleModel.LastSelectRoleId==0 && mPlayerList.Count>0)
             {
-                CurrentSelectRoleId = mPlayerList[0].Id;
+               
             }
-        }*/
+        }
     }
 }

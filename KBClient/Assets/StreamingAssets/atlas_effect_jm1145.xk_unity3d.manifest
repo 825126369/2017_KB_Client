@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 3993431304
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7cb0d3eb3ad009820054ec79e4c9bdbf
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fccb50b60b19417926df6e17eaf38a1b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/atlas/effect/jm1145/config.txt
+- Assets/ResourceABs/atlas/effect/jm1145/0_stand_0.png
+Dependencies: []

@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 1976573210
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6761751c087847483d1b0557fff8f547
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 21f0dc8ebad690f009368069428e0a1a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/atlas/headicon/Kelvin 210_3.png
+- Assets/ResourceABs/atlas/headicon/Kelvin 121_4.png
+- Assets/ResourceABs/atlas/headicon/Kelvin 123_3.png
+- Assets/ResourceABs/atlas/headicon/Kelvin 120_6.png
+- Assets/ResourceABs/atlas/headicon/Kelvin 214_2.png
+- Assets/ResourceABs/atlas/headicon/Kelvin 209_3.png
+- Assets/ResourceABs/atlas/headicon/Kelvin 119_6.png
+- Assets/ResourceABs/atlas/headicon/Kelvin 211_2.png
+- Assets/ResourceABs/atlas/headicon/Kelvin 212_3.png
+- Assets/ResourceABs/atlas/headicon/Kelvin 122_2.png
+- Assets/ResourceABs/atlas/headicon/Kelvin 118_4.png
+- Assets/ResourceABs/atlas/headicon/Kelvin 213_2.png
+Dependencies: []

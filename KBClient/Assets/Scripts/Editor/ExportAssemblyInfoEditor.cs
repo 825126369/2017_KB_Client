@@ -9,8 +9,8 @@ using System;
 
 public class ExportAssemblyInfoEditor : MonoBehaviour
 {
-    static string OriginAssemblyPath = @"F:\2018_Game\Game\Project\Project.CSharp.csproj";
-    static string TargetAssemblyPath = @"F:\2018_Game\Game\Project\xk_Project.csproj";
+    static string OriginAssemblyPath = @"F:\KB_Client\KBClient\KBClient.csproj";
+    static string TargetAssemblyPath = @"F:\KB_Client\KBClient\xk_Project.csproj";
     static string ProjectName = "Project";
     static string TargetAssemblyName = "xk_Project_" + string.Format("{0}_{1}_{2}_{3}_{4}_{5}", DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, DateTime.Now.Hour, DateTime.Now.Minute, DateTime.Now.Second);
     [MenuItem("UnityEditor/GenerationPackage/Generation HotUpdate Assembly")]
@@ -60,7 +60,7 @@ public class ExportAssemblyInfoEditor : MonoBehaviour
     private static void GenerationAssembly()
     {
         CopyAssembly();
-        string cmd = @"F:\2018_Game\Game\Project\Assets\Scripts\Editor\bat\GenerationAssembly_MSBuild.bat";
+        string cmd = @"F:\KB_Client\KBClient\Assets\Scripts\Editor\bat\GenerationAssembly_MSBuild.bat";
         processCommand(cmd, "");
     }
 

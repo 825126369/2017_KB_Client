@@ -11,7 +11,7 @@ public class ExportAssetInfoEditor : MonoBehaviour
     static string CsOutPath = "Assets/Scripts/auto";
 
     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~创建AB文件所有的信息~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    [MenuItem("UnityEditor/GenerationPackage/Generation AssetInfo Cs File")]
+    //[MenuItem("UnityEditor/GenerationPackage/Generation AssetInfo Cs File")]
     public static void GenericAssetCSInfo()
     {
         Debug.Log("Start Generation AssetInfo Cs Info");

@@ -22,7 +22,7 @@ public class ExportAssetBundlesEditor : MonoBehaviour
         Init();
         MakeAtlasTools.MakeAllAtlas();
         ExportAssemblyInfoEditor.GenerationAssemblyInfo();
-        ExportAssetInfoEditor.GenericAssetCSInfo();
+        ExportAssetInfo_1_Editor.GenericAssetCSInfo();
         ExportVersionInfoEditor.GenerationVersionInfo();
         CreateAssetBundleBuilds();
         Debug.Log("Finish Build AssetBundle");
@@ -107,8 +107,10 @@ public class ExportAssetBundlesEditor : MonoBehaviour
 
     static private BuildTarget GetBuildTarget()
     {
-        BuildTarget target = BuildTarget.StandaloneWindows;
-#if UNITY_STANDALONE
+        BuildTarget target = BuildTarget.StandaloneWindows64;
+#if UNITY_WEBGL
+         target = BuildTarget.WebGL;
+#elif UNITY_STANDALONE
         target = BuildTarget.StandaloneWindows;
 #elif UNITY_IPHONE
 		target = BuildTarget.iPhone;

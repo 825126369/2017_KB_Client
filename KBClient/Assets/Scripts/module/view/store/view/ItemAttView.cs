@@ -16,7 +16,7 @@ public class ItemAttView : MonoBehaviour
 
     public void RefreshAtt(int Itemid)
     {
-        Sprite mSprite = AtlasManager.Instance.GetSprite(AtlasManager.Atlas_Type_Item,Itemid.ToString());
+        Sprite mSprite = AtlasManager.Instance.GetSprite("",Itemid.ToString());
         mIcon.sprite = mSprite;
 
         /*ItemData mItemData = ItemConfig.Instance.GetItemData(Itemid);

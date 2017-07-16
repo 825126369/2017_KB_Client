@@ -8,32 +8,22 @@ namespace xk_System.AssetPackage
 {
     public class AtlasManager : Singleton<AtlasManager>
     {
-        public const string Atlas_Type_Item = "item";
-
         private Dictionary<string, Dictionary<string, Sprite>> mAtlasDic = new Dictionary<string, Dictionary<string, Sprite>>();
-        public IEnumerator InitAtals()
-        {
-            Type mType = ResourceABsFolder.Instance.atlas.GetType();
-            foreach (var v in mType.GetFields())
-            {
-                yield return InitAtlas(v.Name);
-                DebugSystem.Log("加载Atlas:" + v.Name);
-            }
-        }
 
         public IEnumerator InitAtlas(string atlasName)
         {
             Dictionary<string, Sprite> mDic = null;
             if (!mAtlasDic.TryGetValue(atlasName, out mDic))
             {
-                mDic = new Dictionary<string, Sprite>();
-                List<AssetInfo> mAllAssetInfo = GetAllAssetInfo(atlasName);
-                if (mAllAssetInfo.Count > 0)
+                if (GameConfig.Instance.orUseAssetBundle)
                 {
-                    if (GameConfig.Instance.orUseAssetBundle)
-                    {
-                        yield return AssetBundleManager.Instance.AsyncLoadBundle(mAllAssetInfo[0].bundleName);
-                    }
+                    yield return AssetBundleManager.Instance.AsyncLoadBundle(atlasName);
+                }
+
+                mDic = new Dictionary<string, Sprite>();
+                AssetInfo[] mAllAssetInfo = ResourceABsFolder.Instance.getAsseetInfoList(atlasName);
+                if (mAllAssetInfo!=null && mAllAssetInfo.Length > 0)
+                {
                     foreach (var v in mAllAssetInfo)
                     {
                         Sprite mSprite = null;
@@ -53,7 +43,9 @@ namespace xk_System.AssetPackage
                         }
                         else
                         {
+#if UNITY_EDITOR
                             mSprite = UnityEditor.AssetDatabase.LoadAssetAtPath<Sprite>(v.assetPath);
+#endif
                         }
 
                         if (mSprite != null)
@@ -98,25 +90,5 @@ namespace xk_System.AssetPackage
             }
         }
 
-        private List<AssetInfo> GetAllAssetInfo(string atlasName)
-        {
-            List<AssetInfo> mAssetInfoList = new List<AssetInfo>();
-            Type mType = ResourceABsFolder.Instance.atlas.GetType();
-            foreach (var v in mType.GetFields())
-            {
-                if (v.Name == atlasName)
-                {
-                    object atlasObject = v.GetValue(ResourceABsFolder.Instance.atlas);
-                    Type atlasType = atlasObject.GetType();
-                    foreach (var asset in atlasType.GetFields())
-                    {
-                        AssetInfo mAssetInfo = asset.GetValue(atlasObject) as AssetInfo;
-                        mAssetInfoList.Add(mAssetInfo);
-                    }
-                    break;
-                }
-            }
-            return mAssetInfoList;
-        }
     }
 }

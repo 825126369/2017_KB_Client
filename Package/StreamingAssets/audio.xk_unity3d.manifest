@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1381779836
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1e401bbac5e95d45fa89a64db0370997
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/audio/bg.wav
+Dependencies: []

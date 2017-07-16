@@ -28,19 +28,19 @@ namespace xk_System.View.Modules
 
         private void FindObject()
         {
-            Transform t = transform.FindChild("Text");
+            Transform t = transform.Find("Text");
             mText = t.GetComponent<Text>();
 
-            t = transform.FindChild("yes");
+            t = transform.Find("yes");
             yesBtn = t.GetComponent<Button>();
 
-            t = transform.FindChild("no");
+            t = transform.Find("no");
             noBtn = t.GetComponent<Button>();
 
-            t = transform.FindChild("sure");
+            t = transform.Find("sure");
             sureBtn = t.GetComponent<Button>();
 
-            t = transform.FindChild("close");
+            t = transform.Find("close");
             closeBtn = t.GetComponent<Button>();
         }
 

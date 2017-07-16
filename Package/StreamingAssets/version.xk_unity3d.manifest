@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3271550881
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ff9d2b3b60fd07178f6c7a069ca71878
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1033bf7ddfd4c6d43e7a6382c0a0a61a
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/version/version.xml
+Dependencies: []

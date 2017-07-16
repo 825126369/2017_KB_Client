@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 4207820954
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e4dc85c0c36350196f4eb5160ba422db
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 21f0dc8ebad690f009368069428e0a1a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/atlas/share/share_1.jpg
+Dependencies: []

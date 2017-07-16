@@ -1,0 +1,52 @@
+ManifestFileVersion: 0
+CRC: 336909108
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 71c4bfc32590f712c309dc9b4bc4ca31
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fccb50b60b19417926df6e17eaf38a1b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/atlas/effect/jn10590/2_stand_0.png
+- Assets/ResourceABs/atlas/effect/jn10590/4_stand_2.png
+- Assets/ResourceABs/atlas/effect/jn10590/7_stand_0.png
+- Assets/ResourceABs/atlas/effect/jn10590/5_stand_1.png
+- Assets/ResourceABs/atlas/effect/jn10590/5_stand_0.png
+- Assets/ResourceABs/atlas/effect/jn10590/7_stand_3.png
+- Assets/ResourceABs/atlas/effect/jn10590/2_stand_1.png
+- Assets/ResourceABs/atlas/effect/jn10590/4_stand_1.png
+- Assets/ResourceABs/atlas/effect/jn10590/6_stand_2.png
+- Assets/ResourceABs/atlas/effect/jn10590/3_stand_2.png
+- Assets/ResourceABs/atlas/effect/jn10590/7_stand_2.png
+- Assets/ResourceABs/atlas/effect/jn10590/5_stand_3.png
+- Assets/ResourceABs/atlas/effect/jn10590/0_stand_2.png
+- Assets/ResourceABs/atlas/effect/jn10590/3_stand_3.png
+- Assets/ResourceABs/atlas/effect/jn10590/4_stand_0.png
+- Assets/ResourceABs/atlas/effect/jn10590/7_stand_1.png
+- Assets/ResourceABs/atlas/effect/jn10590/0_stand_0.png
+- Assets/ResourceABs/atlas/effect/jn10590/6_stand_0.png
+- Assets/ResourceABs/atlas/effect/jn10590/0_stand_3.png
+- Assets/ResourceABs/atlas/effect/jn10590/5_stand_2.png
+- Assets/ResourceABs/atlas/effect/jn10590/3_stand_1.png
+- Assets/ResourceABs/atlas/effect/jn10590/4_stand_3.png
+- Assets/ResourceABs/atlas/effect/jn10590/2_stand_3.png
+- Assets/ResourceABs/atlas/effect/jn10590/6_stand_1.png
+- Assets/ResourceABs/atlas/effect/jn10590/3_stand_0.png
+- Assets/ResourceABs/atlas/effect/jn10590/1_stand_2.png
+- Assets/ResourceABs/atlas/effect/jn10590/1_stand_0.png
+- Assets/ResourceABs/atlas/effect/jn10590/1_stand_1.png
+- Assets/ResourceABs/atlas/effect/jn10590/2_stand_2.png
+- Assets/ResourceABs/atlas/effect/jn10590/config.txt
+- Assets/ResourceABs/atlas/effect/jn10590/1_stand_3.png
+- Assets/ResourceABs/atlas/effect/jn10590/6_stand_3.png
+- Assets/ResourceABs/atlas/effect/jn10590/0_stand_1.png
+Dependencies: []

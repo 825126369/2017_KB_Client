@@ -123,22 +123,43 @@ namespace xk_System.AssetPackage
             SaveBundleToDic(BaseBundleInfo.bundleName, asset);
             mBundleLockList.Remove(BaseBundleInfo.bundleName);
         }
+
+        private string getRealAssetName(AssetBundle bundle, string assetName)
+        {
+            if (assetName.LastIndexOf(".") == -1)
+            {
+                string[] allasseetNames = bundle.GetAllAssetNames();
+                foreach (var v in allasseetNames)
+                {
+                    if (v.IndexOf(assetName)!=-1)
+                    {
+                        return v;
+                    }
+                }
+            }
+            return assetName;
+        }
+
+
         /// <summary>
         /// 异步从本地外部存储加载单个Asset文件，只加载Bundle中的单个资源
         /// </summary>
         /// <param name="bundle"></param>
         /// <returns></returns>
-        private IEnumerator AsyncLoadFromLocalSingleAsset(AssetBundleInfo bundle, string assetName)
+        private IEnumerator AsyncLoadFromLocalSingleAsset(AssetBundleInfo bundleInfo, string assetName)
         {
-            if (bundle != null)
+            if (bundleInfo != null)
             {
-                yield return AsyncLoadFromLoaclSingleBundle(bundle);
-                UnityEngine.Object Obj = mBundleDic[bundle.bundleName].LoadAsset(assetName);
+                yield return AsyncLoadFromLoaclSingleBundle(bundleInfo);
+                AssetBundle bundle=mBundleDic[bundleInfo.bundleName];
+                assetName=getRealAssetName(bundle,assetName);
+                UnityEngine.Object Obj = bundle.LoadAsset(assetName);
                 if (Obj != null)
                 {
                     DebugSystem.Log("Async Load Asset Success:" + Obj.name);
-                    SaveAssetToDic(bundle.bundleName, assetName, Obj);
+                    SaveAssetToDic(bundleInfo.bundleName, assetName, Obj);
                 }
+
             }
         }
         /// <summary>
@@ -243,6 +264,8 @@ namespace xk_System.AssetPackage
             {
                 if (!mAssetDic.ContainsKey(bundleName) || mAssetDic[bundleName] == null || !mAssetDic[bundleName].ContainsKey(asstName) || mAssetDic[bundleName][asstName] == null)
                 {
+                    AssetBundle bundle = mBundleDic[bundleName];
+                    asstName = getRealAssetName(bundle,asstName);
                     UnityEngine.Object mm = mBundleDic[bundleName].LoadAsset(asstName);
                     if (mm != null)
                     {
@@ -289,6 +312,11 @@ namespace xk_System.AssetPackage
 #if UNITY_EDITOR
         private Dictionary<string, UnityEngine.Object> mEditorAssetDic = new Dictionary<string, UnityEngine.Object>();
 
+        private string[] GetAllAssetNamesFromEditorFolder(string assetPath)
+        {
+            return System.IO.Directory.GetFiles(assetPath);
+        }
+
         private UnityEngine.Object GetAssetFromEditorDic(string assetPath)
         {
             if (string.IsNullOrEmpty(assetPath))
@@ -296,6 +324,23 @@ namespace xk_System.AssetPackage
                 DebugSystem.LogError("Editor AssetPath is Empty");
                 return null;
             }
+
+            if (assetPath.LastIndexOf(".") == -1)
+            {
+                var index = assetPath.LastIndexOf("/");
+                string dirPath = assetPath.Substring(0, index);
+                string[] filepaths=System.IO.Directory.GetFiles(dirPath);
+                foreach (var v in filepaths)
+                {
+                    string path = v.Replace("\\", "/").Replace(@"\","/");
+                    if (path.IndexOf(assetPath) != -1)
+                    {
+                        assetPath = path;
+                        break;
+                    }
+                }
+            }
+
             UnityEngine.Object asset = null;
             if (!mEditorAssetDic.TryGetValue(assetPath, out asset))
             {
@@ -314,26 +359,58 @@ namespace xk_System.AssetPackage
                     DebugSystem.LogError("找不到资源：" + assetPath);
                 }
             }
-            if (asset is GameObject)
+
+            if (asset != null)
             {
-                GameObject obj = Instantiate(asset) as GameObject;
-                return obj;
-            }
-            else
+                if (asset is GameObject)
+                {
+                    GameObject obj = Instantiate(asset) as GameObject;
+                    return obj;
+                }
+                else
+                {
+                    return asset;
+                }
+            }else
             {
-                return asset;
+                DebugSystem.LogError("找不到资源：" + assetPath);
             }
+
+            return null;
         }
 #endif
         public IEnumerator AsyncLoadBundle(string bundleName)
         {
-            if (!JudegeOrExistBundle(bundleName))
+            if (GameConfig.Instance.orUseAssetBundle)
             {
-                string path = AssetBundlePath.Instance.ExternalStorePath + "/" + bundleName;
-                AssetBundle asset = AssetBundle.LoadFromFile(path);
-                SaveBundleToDic(bundleName, asset);
-                yield return null;
-            }          
+                if (!JudegeOrExistBundle(bundleName))
+                {
+                    string path = AssetBundlePath.Instance.ExternalStorePath + "/" + bundleName;
+                    AssetBundle asset = AssetBundle.LoadFromFile(path);
+                    SaveBundleToDic(bundleName, asset);
+                    yield return null;
+                }
+            }
+        }
+
+        public string[] getAllBundleAssetInfo(AssetInfo mAssetInfo)
+        {
+            if (GameConfig.Instance.orUseAssetBundle)
+            {
+                string bundleName = mAssetInfo.bundleName;
+                if (JudegeOrExistBundle(bundleName))
+                {
+                    AssetBundle bundle = mBundleDic[bundleName];
+                    return bundle.GetAllAssetNames();
+                }
+            }else
+            {
+#if UNITY_EDITOR
+                string assetPath = mAssetInfo.assetPath;
+                return GetAllAssetNamesFromEditorFolder(assetPath);
+#endif
+            }
+            return null;
         }
         /// <summary>
         /// 这个东西用来在顶层使用
@@ -349,7 +426,11 @@ namespace xk_System.AssetPackage
             }
             else
             {
-               return GetAssetFromEditorDic(mAssetInfo.assetPath);
+#if UNITY_EDITOR
+                return GetAssetFromEditorDic(mAssetInfo.assetPath);
+#else
+                return null;
+#endif
             }
         }
 
@@ -408,7 +489,6 @@ namespace xk_System.AssetPackage
                 if (asset == null)
                 {
                     DebugSystem.LogError("MainifestFile Bundle is Null");
-                    www.Dispose();
                     yield break;
                 }
 
@@ -416,7 +496,6 @@ namespace xk_System.AssetPackage
                 if (mAllBundleMainifest == null)
                 {
                     DebugSystem.LogError("Mainifest is Null");
-                    www.Dispose();
                     yield break;
                 }
                 string[] mAssetNames = mAllBundleMainifest.GetAllAssetBundles();
@@ -424,7 +503,6 @@ namespace xk_System.AssetPackage
                 {
                     foreach (var v in mAssetNames)
                     {
-
                         string bundleName = v;
                         string[] bundleDependentList = mAllBundleMainifest.GetAllDependencies(v);
                         Hash128 mHash = mAllBundleMainifest.GetAssetBundleHash(v);
@@ -438,7 +516,6 @@ namespace xk_System.AssetPackage
                 }
                 asset.Unload(false);
                 DebugSystem.Log("初始化资源管理器全局Bundle信息成功");
-                www.Dispose();
 
                 yield return InitLoadExternalStoreVersionConfig();
             }

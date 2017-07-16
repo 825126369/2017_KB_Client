@@ -32,7 +32,7 @@ namespace xk_System.Db
         public IEnumerator initDbSystem()
         {
             mTask.progress = 0;
-            AssetInfo mSheetIfo = ResourceABsFolder.Instance.sheet.mDB;
+            AssetInfo mSheetIfo = ResourceABsFolder.Instance.getAsseetInfo("sheet", "DB");
             yield return AssetBundleManager.Instance.AsyncLoadAsset(mSheetIfo);
             TextAsset mXml = AssetBundleManager.Instance.LoadAsset(mSheetIfo) as TextAsset;
             mTask.progress += 10;
