@@ -40,6 +40,10 @@ namespace xk_System.View.Modules
             if (mSelectRoleModel.LastSelectRoleId > 0)
             {
                 KBEngine.Event.fireIn("selectAvatarGame", mSelectRoleModel.LastSelectRoleId);
+                SceneSystem.Instance.GoToScene(SceneInfo.Scene_2);
+                //ShowView<MainView>();
+                HideView<RoleSelectView>(true);
+                HideView<RoleCreateView>(true);
             }
             else
             {

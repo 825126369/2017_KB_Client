@@ -5,5 +5,7 @@ using System.Collections.Generic;
 
 public class PlayerDataManager:Singleton<PlayerDataManager>
 {
+
+
    
 }

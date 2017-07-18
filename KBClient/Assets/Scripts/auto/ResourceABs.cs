@@ -5,6 +5,19 @@ namespace xk_System.AssetPackage
 	{
 		public ResourceABsFolder()
 		{
+				mBundleInfoDic.Add("3d_map_map_1_animations.xk_unity3d","Assets/ResourceABs/3d/map/map_1/animations");
+				mBundleInfoDic.Add("3d_map_map_1_materials.xk_unity3d","Assets/ResourceABs/3d/map/map_1/materials");
+				mBundleInfoDic.Add("3d_map_map_1_models.xk_unity3d","Assets/ResourceABs/3d/map/map_1/models");
+				mBundleInfoDic.Add("3d_map_map_1_models_08_lian.fbm.xk_unity3d","Assets/ResourceABs/3d/map/map_1/models/08_lian.fbm");
+				mBundleInfoDic.Add("3d_map_map_1_textures.xk_unity3d","Assets/ResourceABs/3d/map/map_1/textures");
+				mBundleInfoDic.Add("3d_monster_zombie.xk_unity3d","Assets/ResourceABs/3d/monster/Zombie");
+				mBundleInfoDic.Add("3d_monster_zombie_materials.xk_unity3d","Assets/ResourceABs/3d/monster/Zombie/Materials");
+				mBundleInfoDic.Add("3d_monster_zombie_textures.xk_unity3d","Assets/ResourceABs/3d/monster/Zombie/Textures");
+				mBundleInfoDic.Add("3d_prefab_map.xk_unity3d","Assets/ResourceABs/3d/prefab/map");
+				mBundleInfoDic.Add("3d_prefab_monster.xk_unity3d","Assets/ResourceABs/3d/prefab/monster");
+				mBundleInfoDic.Add("3d_prefab_skill.xk_unity3d","Assets/ResourceABs/3d/prefab/skill");
+				mBundleInfoDic.Add("3d_skill_materials.xk_unity3d","Assets/ResourceABs/3d/skill/Materials");
+				mBundleInfoDic.Add("3d_skill_textures.xk_unity3d","Assets/ResourceABs/3d/skill/Textures");
 				mBundleInfoDic.Add("atlas_back.xk_unity3d","Assets/ResourceABs/atlas/back");
 				mBundleInfoDic.Add("atlas_button.xk_unity3d","Assets/ResourceABs/atlas/button");
 				mBundleInfoDic.Add("atlas_effect_jm1001.xk_unity3d","Assets/ResourceABs/atlas/effect/jm1001");
@@ -310,9 +323,6 @@ namespace xk_System.AssetPackage
 				mBundleInfoDic.Add("scripts.xk_unity3d","Assets/ResourceABs/scripts");
 				mBundleInfoDic.Add("shader.xk_unity3d","Assets/ResourceABs/shader");
 				mBundleInfoDic.Add("sheet.xk_unity3d","Assets/ResourceABs/sheet");
-				mBundleInfoDic.Add("skill_materials.xk_unity3d","Assets/ResourceABs/skill/Materials");
-				mBundleInfoDic.Add("skill_prefab.xk_unity3d","Assets/ResourceABs/skill/Prefab");
-				mBundleInfoDic.Add("skill_textures.xk_unity3d","Assets/ResourceABs/skill/Textures");
 				mBundleInfoDic.Add("version.xk_unity3d","Assets/ResourceABs/version");
 				mBundleInfoDic.Add("view.xk_unity3d","Assets/ResourceABs/view");
 			}

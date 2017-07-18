@@ -1,0 +1,48 @@
+ManifestFileVersion: 0
+CRC: 645389555
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 74c617bcdc6fdfc1e9919feb418df038
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8d068741ae817c9b5c92580f37de87e3
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- 'Assets/ResourceABs/3d/map/map_1/materials/Material #36.mat'
+- Assets/ResourceABs/3d/map/map_1/materials/Bloom07.mat
+- Assets/ResourceABs/3d/map/map_1/materials/018_pc.mat
+- Assets/ResourceABs/3d/map/map_1/materials/05_floor03.mat
+- Assets/ResourceABs/3d/map/map_1/materials/05_wall2a.mat
+- Assets/ResourceABs/3d/map/map_1/materials/05_lian.mat
+- Assets/ResourceABs/3d/map/map_1/materials/06 - Default.mat
+- Assets/ResourceABs/3d/map/map_1/materials/05_men.mat
+- Assets/ResourceABs/3d/map/map_1/materials/skyd 1.mat
+- Assets/ResourceABs/3d/map/map_1/materials/A_0.mat
+- 'Assets/ResourceABs/3d/map/map_1/materials/Material #37.mat'
+- Assets/ResourceABs/3d/map/map_1/materials/05_wall.mat
+- Assets/ResourceABs/3d/map/map_1/materials/05_floor02.mat
+- Assets/ResourceABs/3d/map/map_1/materials/BA_FlameD_M.mat
+- Assets/ResourceABs/3d/map/map_1/materials/018_d2.mat
+- Assets/ResourceABs/3d/map/map_1/materials/BA_Flame01.mat
+- 'Assets/ResourceABs/3d/map/map_1/materials/Material #26.mat'
+- Assets/ResourceABs/3d/map/map_1/materials/banners_curtains_512_diff_Cath_trDun.tex.mat
+- Assets/ResourceABs/3d/map/map_1/materials/018_pck.mat
+- Assets/ResourceABs/3d/map/map_1/materials/02 - Default.mat
+- Assets/ResourceABs/3d/map/map_1/materials/05_floor1.mat
+- Assets/ResourceABs/3d/map/map_1/materials/05_lazhu.mat
+- 'Assets/ResourceABs/3d/map/map_1/materials/Material #39.mat'
+- Assets/ResourceABs/3d/map/map_1/materials/017_D1.mat
+- Assets/ResourceABs/3d/map/map_1/materials/Face_0.mat
+- Assets/ResourceABs/3d/map/map_1/materials/018_sky.mat
+- Assets/ResourceABs/3d/map/map_1/materials/05_S.mat
+- Assets/ResourceABs/3d/map/map_1/materials/05_wall3.mat
+Dependencies:
+- F:/KB_Client/KBClient/Assets/StreamingAssets/3d_map_map_1_textures.xk_unity3d

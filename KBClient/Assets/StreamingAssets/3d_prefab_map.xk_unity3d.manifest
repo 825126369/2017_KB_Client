@@ -1,0 +1,53 @@
+ManifestFileVersion: 0
+CRC: 2448788714
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d306223f8b6106b6a85ce1935985a513
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a22559299706bb73e6d7a65d23d41a7
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 92
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/3d/prefab/map/map_1.prefab
+Dependencies:
+- F:/KB_Client/KBClient/Assets/StreamingAssets/3d_map_map_1_animations.xk_unity3d
+- F:/KB_Client/KBClient/Assets/StreamingAssets/3d_map_map_1_materials.xk_unity3d
+- F:/KB_Client/KBClient/Assets/StreamingAssets/3d_map_map_1_models.xk_unity3d

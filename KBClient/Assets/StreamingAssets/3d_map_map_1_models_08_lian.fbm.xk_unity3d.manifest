@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1694510890
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d1cb828262d9ea52cf9301b7a2cedde9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4cd0a5558493b0679e071c141fc729a3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/3d/map/map_1/models/08_lian.fbm/banners_curtains_512_diff_Cath_trDun.tex.png
+Dependencies: []

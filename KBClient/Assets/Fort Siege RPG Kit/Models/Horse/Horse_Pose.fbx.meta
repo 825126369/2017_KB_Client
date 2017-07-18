@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: c80d4f60040823c44a92df39e6d1a699
+timeCreated: 1435495499
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Head
+    100004: Hips
+    100006: HorseModels
+    100008: LeftArm
+    100010: LeftFingerBase
+    100012: LeftFoot
+    100014: LeftFootIndex1
+    100016: LeftForeArm
+    100018: LeftHand
+    100020: LeftHandIndex1
+    100022: LeftHandIndex2
+    100024: LeftLeg
+    100026: LeftShoulder
+    100028: LeftToeBase
+    100030: LeftUpLeg
+    100032: Mesh1
+    100034: Mesh2
+    100036: Neck
+    100038: Neck1
+    100040: Neck2
+    100042: Neck3
+    100044: Neck4
+    100046: Neck5
+    100048: Neck6
+    100050: RightArm
+    100052: RightFingerBase
+    100054: RightFoot
+    100056: RightFootIndex1
+    100058: RightForeArm
+    100060: RightHand
+    100062: RightHandIndex1
+    100064: RightHandIndex2
+    100066: RightLeg
+    100068: RightShoulder
+    100070: RightToeBase
+    100072: RightUpLeg
+    100074: Spine
+    100076: Spine1
+    100078: Spine2
+    100080: Spine3
+    100082: Spine4
+    100084: Spine5
+    100086: Spine6
+    100088: Spine7
+    100090: Tail
+    100092: Tail1
+    100094: Tail2
+    100096: Tail3
+    100098: Tail4
+    100100: Tail5
+    100102: Tail6
+    100104: Tail7
+    100106: Tail8
+    100108: TailEND
+    400000: //RootNode
+    400002: Head
+    400004: Hips
+    400006: HorseModels
+    400008: LeftArm
+    400010: LeftFingerBase
+    400012: LeftFoot
+    400014: LeftFootIndex1
+    400016: LeftForeArm
+    400018: LeftHand
+    400020: LeftHandIndex1
+    400022: LeftHandIndex2
+    400024: LeftLeg
+    400026: LeftShoulder
+    400028: LeftToeBase
+    400030: LeftUpLeg
+    400032: Mesh1
+    400034: Mesh2
+    400036: Neck
+    400038: Neck1
+    400040: Neck2
+    400042: Neck3
+    400044: Neck4
+    400046: Neck5
+    400048: Neck6
+    400050: RightArm
+    400052: RightFingerBase
+    400054: RightFoot
+    400056: RightFootIndex1
+    400058: RightForeArm
+    400060: RightHand
+    400062: RightHandIndex1
+    400064: RightHandIndex2
+    400066: RightLeg
+    400068: RightShoulder
+    400070: RightToeBase
+    400072: RightUpLeg
+    400074: Spine
+    400076: Spine1
+    400078: Spine2
+    400080: Spine3
+    400082: Spine4
+    400084: Spine5
+    400086: Spine6
+    400088: Spine7
+    400090: Tail
+    400092: Tail1
+    400094: Tail2
+    400096: Tail3
+    400098: Tail4
+    400100: Tail5
+    400102: Tail6
+    400104: Tail7
+    400106: Tail8
+    400108: TailEND
+    4300000: HorseModels
+    9500000: //RootNode
+    13700000: HorseModels
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

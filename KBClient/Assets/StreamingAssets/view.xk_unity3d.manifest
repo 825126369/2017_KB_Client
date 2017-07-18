@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 4270121472
+CRC: 245136725
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: af15df8b7090affc21df5f9d59a034e5
+    Hash: 27c58628f09512687556a8881f95d355
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 9be7882973ac72c91927b31d71161da2
+    Hash: b0f0dc0bb625a9baaa4441b5c1a7c4bb
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -47,6 +47,8 @@ ClassTypes:
   Script: {fileID: -405508275, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 - Class: 114
   Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -2061169968, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 - Class: 114
   Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 - Class: 114
@@ -152,13 +154,11 @@ Assets:
 - Assets/ResourceABs/view/WindowLoadingView.prefab
 - Assets/ResourceABs/view/LoginView.prefab
 Dependencies:
+- F:/KB_Client/KBClient/Assets/StreamingAssets/3d_skill_materials.xk_unity3d
 - F:/KB_Client/KBClient/Assets/StreamingAssets/atlas_back.xk_unity3d
 - F:/KB_Client/KBClient/Assets/StreamingAssets/atlas_button.xk_unity3d
 - F:/KB_Client/KBClient/Assets/StreamingAssets/atlas_effect_jm1001.xk_unity3d
 - F:/KB_Client/KBClient/Assets/StreamingAssets/atlas_effect_jm1002.xk_unity3d
 - F:/KB_Client/KBClient/Assets/StreamingAssets/atlas_emoj.xk_unity3d
 - F:/KB_Client/KBClient/Assets/StreamingAssets/atlas_headicon.xk_unity3d
-- F:/KB_Client/KBClient/Assets/StreamingAssets/atlas_hero.xk_unity3d
 - F:/KB_Client/KBClient/Assets/StreamingAssets/atlas_login.xk_unity3d
-- F:/KB_Client/KBClient/Assets/StreamingAssets/atlas_skill.xk_unity3d
-- F:/KB_Client/KBClient/Assets/StreamingAssets/skill_materials.xk_unity3d

@@ -1,0 +1,61 @@
+ManifestFileVersion: 0
+CRC: 1797662657
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3760efe5f147a1906ab599e8a4f9ac86
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 02689407958b3b99319348c541dc5079
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/3d/map/map_1/models/05_CQ03.FBX
+- Assets/ResourceABs/3d/map/map_1/models/05_CQ06.FBX
+- Assets/ResourceABs/3d/map/map_1/models/05_light.FBX
+- Assets/ResourceABs/3d/map/map_1/models/05_men.FBX
+- Assets/ResourceABs/3d/map/map_1/models/05_CQ02.FBX
+- Assets/ResourceABs/3d/map/map_1/models/05_CQ05b.FBX
+- Assets/ResourceABs/3d/map/map_1/models/05_louti.FBX
+- Assets/ResourceABs/3d/map/map_1/models/05_louti2.FBX
+- Assets/ResourceABs/3d/map/map_1/models/05_TAI.FBX
+- Assets/ResourceABs/3d/map/map_1/models/05_floor03.FBX
+- Assets/ResourceABs/3d/map/map_1/models/05_dunzi.FBX
+- Assets/ResourceABs/3d/map/map_1/models/05_floor05.FBX
+- Assets/ResourceABs/3d/map/map_1/models/018_s1.FBX
+- Assets/ResourceABs/3d/map/map_1/models/05_floor04.FBX
+- Assets/ResourceABs/3d/map/map_1/models/05_X.FBX
+- Assets/ResourceABs/3d/map/map_1/models/05_floor02.FBX
+- Assets/ResourceABs/3d/map/map_1/models/017_D1.FBX
+- Assets/ResourceABs/3d/map/map_1/models/05_langan4.FBX
+- Assets/ResourceABs/3d/map/map_1/models/05_langan7A.FBX
+- Assets/ResourceABs/3d/map/map_1/models/018_d2.FBX
+- Assets/ResourceABs/3d/map/map_1/models/skybox.FBX
+- Assets/ResourceABs/3d/map/map_1/models/05_langan5.FBX
+- Assets/ResourceABs/3d/map/map_1/models/05_langan2.FBX
+- Assets/ResourceABs/3d/map/map_1/models/05_langan.FBX
+- Assets/ResourceABs/3d/map/map_1/models/05_CQ01.FBX
+- Assets/ResourceABs/3d/map/map_1/models/05_langan3.FBX
+- Assets/ResourceABs/3d/map/map_1/models/05_CQ04.FBX
+- Assets/ResourceABs/3d/map/map_1/models/05_c.FBX
+- Assets/ResourceABs/3d/map/map_1/models/05_CQ05.FBX
+- Assets/ResourceABs/3d/map/map_1/models/08_lian.FBX
+- Assets/ResourceABs/3d/map/map_1/models/05_langanA.FBX
+- Assets/ResourceABs/3d/map/map_1/models/05_zhuzi.FBX
+- Assets/ResourceABs/3d/map/map_1/models/Bloom01.FBX
+- Assets/ResourceABs/3d/map/map_1/models/05_floor01.FBX
+- Assets/ResourceABs/3d/map/map_1/models/05_wall.FBX
+Dependencies:
+- F:/KB_Client/KBClient/Assets/StreamingAssets/3d_map_map_1_materials.xk_unity3d

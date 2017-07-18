@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KBClient", "KBClient.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KBClient.Plugins", "KBClient.Plugins.csproj", "{AF9DBD21-9739-61F4-2D5C-44B71361F565}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KBClient.Editor.Plugins", "KBClient.Editor.Plugins.csproj", "{740669FE-66CF-ECAE-F9A8-B3877C8871B6}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KBClient.Editor", "KBClient.Editor.csproj", "{8FB620FA-2231-3352-6ECB-97CFD808A3A6}"
 EndProject
 Global
@@ -21,6 +23,10 @@ Global
 		{AF9DBD21-9739-61F4-2D5C-44B71361F565}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF9DBD21-9739-61F4-2D5C-44B71361F565}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF9DBD21-9739-61F4-2D5C-44B71361F565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{740669FE-66CF-ECAE-F9A8-B3877C8871B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{740669FE-66CF-ECAE-F9A8-B3877C8871B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{740669FE-66CF-ECAE-F9A8-B3877C8871B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{740669FE-66CF-ECAE-F9A8-B3877C8871B6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8FB620FA-2231-3352-6ECB-97CFD808A3A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8FB620FA-2231-3352-6ECB-97CFD808A3A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FB620FA-2231-3352-6ECB-97CFD808A3A6}.Release|Any CPU.ActiveCfg = Release|Any CPU

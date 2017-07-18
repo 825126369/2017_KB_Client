@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 2646632723
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2b23cd781e9e017ca6a1e517803671c3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4cd0a5558493b0679e071c141fc729a3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/3d/map/map_1/textures/05_wall2.png
+- Assets/ResourceABs/3d/map/map_1/textures/05_floor1.png
+- Assets/ResourceABs/3d/map/map_1/textures/T_Particle_02.psd
+- Assets/ResourceABs/3d/map/map_1/textures/wood.tga
+- Assets/ResourceABs/3d/map/map_1/textures/05_floor3.png
+- Assets/ResourceABs/3d/map/map_1/textures/05_Flame.tga
+- Assets/ResourceABs/3d/map/map_1/textures/05_s.png
+- Assets/ResourceABs/3d/map/map_1/textures/05_wall3.png
+- Assets/ResourceABs/3d/map/map_1/textures/05_floor2.png
+- Assets/ResourceABs/3d/map/map_1/textures/light_map02.tga
+- Assets/ResourceABs/3d/map/map_1/textures/05_lian.tga
+- Assets/ResourceABs/3d/map/map_1/textures/banners_curtains_512_diff_Cath_trDun.tex.png
+- Assets/ResourceABs/3d/map/map_1/textures/sky_xing.tga
+- Assets/ResourceABs/3d/map/map_1/textures/018_d2.png
+- Assets/ResourceABs/3d/map/map_1/textures/017_D1.png
+- Assets/ResourceABs/3d/map/map_1/textures/skyd.psd
+- Assets/ResourceABs/3d/map/map_1/textures/05_men.png
+- Assets/ResourceABs/3d/map/map_1/textures/scene02_05.tga
+- Assets/ResourceABs/3d/map/map_1/textures/018_pc.png
+- Assets/ResourceABs/3d/map/map_1/textures/018_skya.png
+Dependencies: []

@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+CRC: 307191569
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 42fa368db8479126d9e0c3d9336e3e9f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bdb03f553b16b8fd0675374a13aa8149
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 20680a921cd323344999870f36dcfa7c, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 183
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/3d/prefab/monster/Patrul Zombie.prefab
+Dependencies: []

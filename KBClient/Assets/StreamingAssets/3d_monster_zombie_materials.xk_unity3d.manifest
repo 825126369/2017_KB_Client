@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 3514084480
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 75d19e367f3dd26b1b4b9014ef4df150
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8d068741ae817c9b5c92580f37de87e3
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/3d/monster/Zombie/Materials/Bottom.001.mat
+- Assets/ResourceABs/3d/monster/Zombie/Materials/Body.mat
+- Assets/ResourceABs/3d/monster/Zombie/Materials/Zombie2_Bottom_AlbedoTransparency.mat
+- Assets/ResourceABs/3d/monster/Zombie/Materials/Zombie_Body_AlbedoTransparency.mat
+- "Assets/ResourceABs/3d/monster/Zombie/Materials/Zombie_Bottom_AlbedoTransparency
+  - \u043A\u043E\u043F\u0438\u044F.mat"
+Dependencies: []

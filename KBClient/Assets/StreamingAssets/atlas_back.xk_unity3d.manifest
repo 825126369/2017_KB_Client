@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2382929245
+CRC: 578919200
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 120cc56ab366fbe492aa823a00653b08
+    Hash: e17b740e39c9aedcad5fa8dd02620921
   TypeTreeHash:
     serializedVersion: 2
     Hash: 21f0dc8ebad690f009368069428e0a1a
@@ -43,6 +43,7 @@ Assets:
 - Assets/ResourceABs/atlas/back/Kelvin 87_3.png
 - Assets/ResourceABs/atlas/back/Kelvin 143_4.png
 - Assets/ResourceABs/atlas/back/Kelvin 22_02.png
+- Assets/ResourceABs/atlas/back/Kelvin 101.bmp
 - Assets/ResourceABs/atlas/back/Kelvin 71_6.png
 - Assets/ResourceABs/atlas/back/Kelvin 112_6.png
 - Assets/ResourceABs/atlas/back/Kelvin 82_1.png

@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2006869597
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1dc0b24bc5791c1f2bbf36291b877b2d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 07757d18d3ad222c2010babdc7e451ea
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/3d/map/map_1/animations/Ctiy_Cloud.anim
+Dependencies: []

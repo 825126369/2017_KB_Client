@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 892423111
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 95b9da55d361b970203c033ec5de42d4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4cd0a5558493b0679e071c141fc729a3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/3d/monster/Zombie/Textures/Zombie_Bottom_Normal.png
+- Assets/ResourceABs/3d/monster/Zombie/Textures/Zombie_Body_Normal.png
+- Assets/ResourceABs/3d/monster/Zombie/Textures/Zombie_Body_AlbedoTransparency.png
+- Assets/ResourceABs/3d/monster/Zombie/Textures/Zombie_Bottom_SpecularSmoothness.png
+- Assets/ResourceABs/3d/monster/Zombie/Textures/Zombie_Body_SpecularSmoothness.png
+- Assets/ResourceABs/3d/monster/Zombie/Textures/Zombie_Bottom_AlbedoTransparency.png
+Dependencies: []

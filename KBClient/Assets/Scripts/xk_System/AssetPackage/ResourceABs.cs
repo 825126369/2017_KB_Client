@@ -57,7 +57,7 @@ namespace xk_System.AssetPackage
 
             if (BundleName.Contains("."))
             {
-                int index = BundleName.IndexOf(".");
+                int index = BundleName.LastIndexOf(".");
                 string extention = BundleName.Substring(index);
                 if (extention != AssetBundlePath.ABExtention)
                 {

@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 1045673545
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3369f073e4ba92569c40f9448718bd8a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fb0397dd12a805753eee98e740b25e57
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/3d/monster/Zombie/Patrul Zombie.fbx
+- Assets/ResourceABs/3d/monster/Zombie/Zombie T-pose.fbx
+- Assets/ResourceABs/3d/monster/Zombie/Zombie partul.controller
+Dependencies:
+- F:/KB_Client/KBClient/Assets/StreamingAssets/3d_monster_zombie_materials.xk_unity3d
