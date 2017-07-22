@@ -13,7 +13,7 @@ public class MainScenePrepareTask:Singleton<MainScenePrepareTask>
         yield return LoadMonster();
 
         ObjectRoot.Instance.scene_root.root.SetActive(true);
-        ObjectRoot.Instance.scene_root.mCamera.gameObject.SetActive(true);
+        //ObjectRoot.Instance.scene_root.mCamera.gameObject.SetActive(true);
         mTask.progress = 100;
         yield return 0;
     }

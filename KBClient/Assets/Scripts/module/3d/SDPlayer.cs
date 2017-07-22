@@ -30,7 +30,6 @@ public class SDPlayer : SDObject
     protected override void Start()
     {
         base.Start();
-
         PlayAnimation(AnimationType.Idle);
     }
 
