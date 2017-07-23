@@ -25,6 +25,7 @@ public class SDPlayer : SDObject
         base.Awake();
         mAnimator = GetComponentInChildren<Animator>();
         mAnimation = GetComponentInChildren<Animation>();
+        gameObject.AddComponent<RoleController>();
     }
 
     protected override void Start()

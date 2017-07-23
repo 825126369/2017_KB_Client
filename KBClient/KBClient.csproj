@@ -107,6 +107,7 @@
     <Compile Include="Assets\Scripts\auto\DB.cs" />
     <Compile Include="Assets\Scripts\auto\ResourceABs.cs" />
     <Compile Include="Assets\Scripts\module\3d\PlayerDataManager.cs" />
+    <Compile Include="Assets\Scripts\module\3d\RoleController.cs" />
     <Compile Include="Assets\Scripts\module\3d\SDMonster.cs" />
     <Compile Include="Assets\Scripts\module\3d\SDNPC.cs" />
     <Compile Include="Assets\Scripts\module\3d\SDObject.cs" />
@@ -137,6 +138,7 @@
     <Compile Include="Assets\Scripts\module\view\Loading\MainScenePrepareTask.cs" />
     <Compile Include="Assets\Scripts\module\view\Loading\SceneLoadingView.cs" />
     <Compile Include="Assets\Scripts\module\view\Loading\SceneManager.cs" />
+    <Compile Include="Assets\Scripts\module\view\Loading\SelectRoleScenePrepareTask.cs" />
     <Compile Include="Assets\Scripts\module\view\Loading\TaskProgressBar.cs" />
     <Compile Include="Assets\Scripts\module\view\Loading\WindowLoadingView.cs" />
     <Compile Include="Assets\Scripts\module\view\login\LoginCommand.cs" />

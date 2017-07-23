@@ -34,7 +34,10 @@ public class ObjectRoot :SingleTonMonoBehaviour<ObjectRoot>
     public class scene
     {
         public GameObject root;
-        public Camera mCamera;
+        public Transform MapParent;
+        public Transform PlayerParent;
+        public Transform NpcParent;
+        public Transform MonsterParent;
     }
 
     public override void Init()

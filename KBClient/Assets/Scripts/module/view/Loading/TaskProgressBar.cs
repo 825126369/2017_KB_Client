@@ -107,7 +107,7 @@ public class TaskProgressBar
         uint targetPro = mdata.getCurrentProgress();
         if(LastJindu!=targetPro)
         {
-            DebugSystem.LogError("当前进度："+targetPro);
+            //DebugSystem.LogError("当前进度："+targetPro);
             LastJindu = targetPro;
         }
         if (currentProgress < targetPro)

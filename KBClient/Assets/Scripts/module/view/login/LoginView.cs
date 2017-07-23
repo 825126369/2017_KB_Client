@@ -141,7 +141,7 @@ namespace xk_System.View.Modules
 
         public void EnterSelectRoleView()
         {
-            ShowView<RoleSelectView>();
+            SceneSystem.Instance.GoToScene(SceneInfo.Scene_SelectRole);
             HideView<LoginView>();
         }
     }
